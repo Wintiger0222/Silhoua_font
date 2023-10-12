@@ -1,5 +1,5 @@
 Copyright &copy; 2022 TaeYun An (0xodbs02@naver.com),
-with Reserved Font Name "Viola15".
+with Reserved Font Name "HGViola15".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
