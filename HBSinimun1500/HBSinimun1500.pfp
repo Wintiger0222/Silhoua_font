@@ -28,6 +28,9 @@
 				"......",
 				"......",
 				"......"
+			],
+			"components": [
+				9632
 			]
 		},
 		{
@@ -1060,20 +1063,8 @@
 		},
 		{
 			"unicode": 92,
-			"data": [
-				"..#...#.",
-				"..#...#.",
-				".#######",
-				"..#...#.",
-				"..#.#.#.",
-				".#######",
-				"..#.#.#.",
-				"..#.#.#.",
-				"..#.#.#.",
-				"...#.#..",
-				"...#.#..",
-				"........",
-				"........"
+			"components": [
+				8361
 			]
 		},
 		{
@@ -1666,6 +1657,12 @@
 			]
 		},
 		{
+			"unicode": 171,
+			"components": [
+				12298
+			]
+		},
+		{
 			"unicode": 172,
 			"data": [
 				".#######",
@@ -1738,6 +1735,12 @@
 			]
 		},
 		{
+			"unicode": 181,
+			"components": [
+				956
+			]
+		},
+		{
 			"unicode": 182,
 			"data": [
 				"..######",
@@ -1784,6 +1787,12 @@
 				"........",
 				"........",
 				"........"
+			]
+		},
+		{
+			"unicode": 187,
+			"components": [
+				12299
 			]
 		},
 		{
@@ -1861,6 +1870,12 @@
 				".#.....#",
 				"........",
 				"........"
+			]
+		},
+		{
+			"unicode": 223,
+			"components": [
+				946
 			]
 		},
 		{
@@ -2107,6 +2122,12 @@
 			]
 		},
 		{
+			"unicode": 949,
+			"components": [
+				8712
+			]
+		},
+		{
 			"unicode": 956,
 			"data": [
 				"..#...#.",
@@ -2167,6 +2188,18 @@
 			]
 		},
 		{
+			"unicode": 966,
+			"components": [
+				8709
+			]
+		},
+		{
+			"unicode": 8226,
+			"components": [
+				9679
+			]
+		},
+		{
 			"unicode": 8252,
 			"data": [
 				".##..##",
@@ -2199,6 +2232,24 @@
 				"........",
 				"........",
 				"........",
+				"........",
+				"........"
+			]
+		},
+		{
+			"unicode": 8361,
+			"data": [
+				"..#...#.",
+				"..#...#.",
+				".#######",
+				"..#...#.",
+				"..#.#.#.",
+				".#######",
+				"..#.#.#.",
+				"..#.#.#.",
+				"..#.#.#.",
+				"...#.#..",
+				"...#.#..",
 				"........",
 				"........"
 			]
@@ -2388,6 +2439,21 @@
 			]
 		},
 		{
+			"unicode": 8735,
+			"data": [
+				".#......",
+				".#......",
+				".#......",
+				".#......",
+				".#......",
+				".#######",
+				"........",
+				"........",
+				"........",
+				"........"
+			]
+		},
+		{
 			"unicode": 8745,
 			"data": [
 				"...###..",
@@ -2416,6 +2482,12 @@
 				"........",
 				"........",
 				"........"
+			]
+		},
+		{
+			"unicode": 8801,
+			"components": [
+				8803
 			]
 		},
 		{
@@ -3477,6 +3549,21 @@
 			]
 		},
 		{
+			"unicode": 9632,
+			"data": [
+				"..####",
+				"..####",
+				"..####",
+				"..####",
+				"..####",
+				"..####",
+				"..####",
+				"......",
+				"......",
+				"......"
+			]
+		},
+		{
 			"unicode": 9644,
 			"data": [
 				".#######",
@@ -3523,6 +3610,12 @@
 			]
 		},
 		{
+			"unicode": 9658,
+			"components": [
+				9654
+			]
+		},
+		{
 			"unicode": 9660,
 			"data": [
 				".#######",
@@ -3554,6 +3647,12 @@
 				"......#",
 				".......",
 				"......."
+			]
+		},
+		{
+			"unicode": 9668,
+			"components": [
+				9664
 			]
 		},
 		{
@@ -3681,6 +3780,12 @@
 				"..#####.",
 				"........",
 				"........"
+			]
+		},
+		{
+			"unicode": 9788,
+			"components": [
+				9728
 			]
 		},
 		{
@@ -93262,7 +93367,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㄱ",
+			"name": "SPC | choseong | 1 | ㄱ",
 			"unicode": 57344,
 			"data": [
 				".#######",
@@ -93281,7 +93386,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㄲ",
+			"name": "SPC | choseong | 1 | ㄲ",
 			"unicode": 57345,
 			"data": [
 				".########",
@@ -93300,7 +93405,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㄴ",
+			"name": "SPC | choseong | 1 | ㄴ",
 			"unicode": 57346,
 			"data": [
 				"###......",
@@ -93319,7 +93424,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㄷ",
+			"name": "SPC | choseong | 1 | ㄷ",
 			"unicode": 57347,
 			"data": [
 				"########.",
@@ -93338,7 +93443,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㄸ",
+			"name": "SPC | choseong | 1 | ㄸ",
 			"unicode": 57348,
 			"data": [
 				"####.#####",
@@ -93357,7 +93462,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㄹ",
+			"name": "SPC | choseong | 1 | ㄹ",
 			"unicode": 57349,
 			"data": [
 				".#######",
@@ -93376,7 +93481,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅁ",
+			"name": "SPC | choseong | 1 | ㅁ",
 			"unicode": 57350,
 			"data": [
 				"########",
@@ -93395,7 +93500,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅂ",
+			"name": "SPC | choseong | 1 | ㅂ",
 			"unicode": 57351,
 			"data": [
 				".....###",
@@ -93414,7 +93519,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅃ",
+			"name": "SPC | choseong | 1 | ㅃ",
 			"unicode": 57352,
 			"data": [
 				"......###",
@@ -93433,7 +93538,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅅ",
+			"name": "SPC | choseong | 1 | ㅅ",
 			"unicode": 57353,
 			"data": [
 				"...###..",
@@ -93452,7 +93557,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅆ",
+			"name": "SPC | choseong | 1 | ㅆ",
 			"unicode": 57354,
 			"data": [
 				"..##..###.",
@@ -93471,7 +93576,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅇ",
+			"name": "SPC | choseong | 1 | ㅇ",
 			"unicode": 57355,
 			"data": [
 				"..######.",
@@ -93490,7 +93595,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅈ",
+			"name": "SPC | choseong | 1 | ㅈ",
 			"unicode": 57356,
 			"data": [
 				".########",
@@ -93509,7 +93614,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅉ",
+			"name": "SPC | choseong | 1 | ㅉ",
 			"unicode": 57357,
 			"data": [
 				"####.####.",
@@ -93528,7 +93633,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅊ",
+			"name": "SPC | choseong | 1 | ㅊ",
 			"unicode": 57358,
 			"data": [
 				"....##...",
@@ -93548,7 +93653,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅋ",
+			"name": "SPC | choseong | 1 | ㅋ",
 			"unicode": 57359,
 			"data": [
 				".#######",
@@ -93567,7 +93672,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅌ",
+			"name": "SPC | choseong | 1 | ㅌ",
 			"unicode": 57360,
 			"data": [
 				"########.",
@@ -93586,7 +93691,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅍ",
+			"name": "SPC | choseong | 1 | ㅍ",
 			"unicode": 57361,
 			"data": [
 				".########",
@@ -93605,7 +93710,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 1 | ㅎ",
+			"name": "SPC | choseong | 1 | ㅎ",
 			"unicode": 57362,
 			"data": [
 				"...##....",
@@ -93625,7 +93730,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㄱ",
+			"name": "SPC | choseong | 3 | ㄱ",
 			"unicode": 57363,
 			"data": [
 				"..#######",
@@ -93644,7 +93749,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㄲ",
+			"name": "SPC | choseong | 3 | ㄲ",
 			"unicode": 57364,
 			"data": [
 				".###.####",
@@ -93663,7 +93768,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㄴ",
+			"name": "SPC | choseong | 3 | ㄴ",
 			"unicode": 57365,
 			"data": [
 				"###......",
@@ -93682,7 +93787,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㄷ",
+			"name": "SPC | choseong | 3 | ㄷ",
 			"unicode": 57366,
 			"data": [
 				".########",
@@ -93701,7 +93806,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㄸ",
+			"name": "SPC | choseong | 3 | ㄸ",
 			"unicode": 57367,
 			"data": [
 				"####.#####",
@@ -93721,7 +93826,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㄹ",
+			"name": "SPC | choseong | 3 | ㄹ",
 			"unicode": 57368,
 			"data": [
 				".########",
@@ -93741,7 +93846,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅁ",
+			"name": "SPC | choseong | 3 | ㅁ",
 			"unicode": 57369,
 			"data": [
 				".########",
@@ -93760,7 +93865,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅂ",
+			"name": "SPC | choseong | 3 | ㅂ",
 			"unicode": 57370,
 			"data": [
 				"......###",
@@ -93780,7 +93885,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅃ",
+			"name": "SPC | choseong | 3 | ㅃ",
 			"unicode": 57371,
 			"data": [
 				"......###",
@@ -93800,7 +93905,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅅ",
+			"name": "SPC | choseong | 3 | ㅅ",
 			"unicode": 57372,
 			"data": [
 				"....###..",
@@ -93819,7 +93924,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅆ",
+			"name": "SPC | choseong | 3 | ㅆ",
 			"unicode": 57373,
 			"data": [
 				"..##..###.",
@@ -93838,7 +93943,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅇ",
+			"name": "SPC | choseong | 3 | ㅇ",
 			"unicode": 57374,
 			"data": [
 				"..######.",
@@ -93857,7 +93962,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅈ",
+			"name": "SPC | choseong | 3 | ㅈ",
 			"unicode": 57375,
 			"data": [
 				".########",
@@ -93876,7 +93981,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅉ",
+			"name": "SPC | choseong | 3 | ㅉ",
 			"unicode": 57376,
 			"data": [
 				"####.#####",
@@ -93895,7 +94000,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅊ",
+			"name": "SPC | choseong | 3 | ㅊ",
 			"unicode": 57377,
 			"data": [
 				"....##...",
@@ -93915,7 +94020,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅋ",
+			"name": "SPC | choseong | 3 | ㅋ",
 			"unicode": 57378,
 			"data": [
 				"..#######",
@@ -93935,7 +94040,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅌ",
+			"name": "SPC | choseong | 3 | ㅌ",
 			"unicode": 57379,
 			"data": [
 				".########",
@@ -93955,7 +94060,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅍ",
+			"name": "SPC | choseong | 3 | ㅍ",
 			"unicode": 57380,
 			"data": [
 				".########",
@@ -93974,7 +94079,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 2 | ㅎ",
+			"name": "SPC | choseong | 3 | ㅎ",
 			"unicode": 57381,
 			"data": [
 				"....###..",
@@ -93994,7 +94099,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㄱ",
+			"name": "SPC | choseong | 4 | ㄱ",
 			"unicode": 57382,
 			"data": [
 				".########",
@@ -94012,7 +94117,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㄲ",
+			"name": "SPC | choseong | 4 | ㄲ",
 			"unicode": 57383,
 			"data": [
 				"####.####",
@@ -94030,7 +94135,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㄴ",
+			"name": "SPC | choseong | 4 | ㄴ",
 			"unicode": 57384,
 			"data": [
 				"###.......",
@@ -94048,7 +94153,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㄷ",
+			"name": "SPC | choseong | 4 | ㄷ",
 			"unicode": 57385,
 			"data": [
 				"########.",
@@ -94066,7 +94171,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㄸ",
+			"name": "SPC | choseong | 4 | ㄸ",
 			"unicode": 57386,
 			"data": [
 				"####.#####.",
@@ -94084,7 +94189,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㄹ",
+			"name": "SPC | choseong | 4 | ㄹ",
 			"unicode": 57387,
 			"data": [
 				".########.",
@@ -94102,7 +94207,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅁ",
+			"name": "SPC | choseong | 4 | ㅁ",
 			"unicode": 57388,
 			"data": [
 				"#########",
@@ -94120,7 +94225,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅂ",
+			"name": "SPC | choseong | 4 | ㅂ",
 			"unicode": 57389,
 			"data": [
 				"......###",
@@ -94138,7 +94243,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅃ",
+			"name": "SPC | choseong | 4 | ㅃ",
 			"unicode": 57390,
 			"data": [
 				"......###",
@@ -94156,7 +94261,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅅ",
+			"name": "SPC | choseong | 4 | ㅅ",
 			"unicode": 57391,
 			"data": [
 				"....###...",
@@ -94174,7 +94279,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅆ",
+			"name": "SPC | choseong | 4 | ㅆ",
 			"unicode": 57392,
 			"data": [
 				"..##..###.",
@@ -94192,7 +94297,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅇ",
+			"name": "SPC | choseong | 4 | ㅇ",
 			"unicode": 57393,
 			"data": [
 				"..######.",
@@ -94210,7 +94315,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅈ",
+			"name": "SPC | choseong | 4 | ㅈ",
 			"unicode": 57394,
 			"data": [
 				".########.",
@@ -94228,7 +94333,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅉ",
+			"name": "SPC | choseong | 4 | ㅉ",
 			"unicode": 57395,
 			"data": [
 				"##########",
@@ -94246,7 +94351,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅊ",
+			"name": "SPC | choseong | 4 | ㅊ",
 			"unicode": 57396,
 			"data": [
 				"...####...",
@@ -94265,7 +94370,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅋ",
+			"name": "SPC | choseong | 4 | ㅋ",
 			"unicode": 57397,
 			"data": [
 				".########",
@@ -94283,7 +94388,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅌ",
+			"name": "SPC | choseong | 4 | ㅌ",
 			"unicode": 57398,
 			"data": [
 				"########.",
@@ -94301,7 +94406,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅍ",
+			"name": "SPC | choseong | 4 | ㅍ",
 			"unicode": 57399,
 			"data": [
 				"##########",
@@ -94319,7 +94424,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 4 | ㅎ",
+			"name": "SPC | choseong | 4 | ㅎ",
 			"unicode": 57400,
 			"data": [
 				"...###...",
@@ -94338,7 +94443,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㄱ",
+			"name": "SPC | choseong | 6 | ㄱ",
 			"unicode": 57401,
 			"data": [
 				"..#######",
@@ -94357,7 +94462,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㄲ",
+			"name": "SPC | choseong | 6 | ㄲ",
 			"unicode": 57402,
 			"data": [
 				".###.####",
@@ -94376,7 +94481,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㄴ",
+			"name": "SPC | choseong | 6 | ㄴ",
 			"unicode": 57403,
 			"data": [
 				"###.......",
@@ -94395,7 +94500,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㄷ",
+			"name": "SPC | choseong | 6 | ㄷ",
 			"unicode": 57404,
 			"data": [
 				"#########",
@@ -94414,7 +94519,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㄸ",
+			"name": "SPC | choseong | 6 | ㄸ",
 			"unicode": 57405,
 			"data": [
 				"####.#####.",
@@ -94433,7 +94538,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㄹ",
+			"name": "SPC | choseong | 6 | ㄹ",
 			"unicode": 57406,
 			"data": [
 				".########",
@@ -94452,7 +94557,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅁ",
+			"name": "SPC | choseong | 6 | ㅁ",
 			"unicode": 57407,
 			"data": [
 				"#########",
@@ -94471,7 +94576,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅂ",
+			"name": "SPC | choseong | 6 | ㅂ",
 			"unicode": 57408,
 			"data": [
 				"......###",
@@ -94490,7 +94595,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅃ",
+			"name": "SPC | choseong | 6 | ㅃ",
 			"unicode": 57409,
 			"data": [
 				"......###",
@@ -94509,7 +94614,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅅ",
+			"name": "SPC | choseong | 6 | ㅅ",
 			"unicode": 57410,
 			"data": [
 				"....###...",
@@ -94528,7 +94633,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅆ",
+			"name": "SPC | choseong | 6 | ㅆ",
 			"unicode": 57411,
 			"data": [
 				"..##..###.",
@@ -94547,7 +94652,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅇ",
+			"name": "SPC | choseong | 6 | ㅇ",
 			"unicode": 57412,
 			"data": [
 				"..######.",
@@ -94566,7 +94671,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅈ",
+			"name": "SPC | choseong | 6 | ㅈ",
 			"unicode": 57413,
 			"data": [
 				".#########",
@@ -94585,7 +94690,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅉ",
+			"name": "SPC | choseong | 6 | ㅉ",
 			"unicode": 57414,
 			"data": [
 				"##########",
@@ -94604,7 +94709,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅊ",
+			"name": "SPC | choseong | 6 | ㅊ",
 			"unicode": 57415,
 			"data": [
 				"....###...",
@@ -94624,7 +94729,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅋ",
+			"name": "SPC | choseong | 6 | ㅋ",
 			"unicode": 57416,
 			"data": [
 				"..#######",
@@ -94643,7 +94748,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅌ",
+			"name": "SPC | choseong | 6 | ㅌ",
 			"unicode": 57417,
 			"data": [
 				"#########",
@@ -94662,7 +94767,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅍ",
+			"name": "SPC | choseong | 6 | ㅍ",
 			"unicode": 57418,
 			"data": [
 				".########",
@@ -94681,7 +94786,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 5 | ㅎ",
+			"name": "SPC | choseong | 6 | ㅎ",
 			"unicode": 57419,
 			"data": [
 				"...###...",
@@ -94701,7 +94806,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅏ",
+			"name": "SPC | jungseong | 1 | ㅏ",
 			"unicode": 57420,
 			"data": [
 				"..........###...",
@@ -94722,7 +94827,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅐ",
+			"name": "SPC | jungseong | 1 | ㅐ",
 			"unicode": 57421,
 			"data": [
 				".............###",
@@ -94743,7 +94848,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅑ",
+			"name": "SPC | jungseong | 1 | ㅑ",
 			"unicode": 57422,
 			"data": [
 				"..........###...",
@@ -94764,7 +94869,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅒ",
+			"name": "SPC | jungseong | 1 | ㅒ",
 			"unicode": 57423,
 			"data": [
 				".............###",
@@ -94785,7 +94890,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅓ",
+			"name": "SPC | jungseong | 1 | ㅓ",
 			"unicode": 57424,
 			"data": [
 				"...........###",
@@ -94806,7 +94911,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅔ",
+			"name": "SPC | jungseong | 1 | ㅔ",
 			"unicode": 57425,
 			"data": [
 				".............###",
@@ -94827,7 +94932,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅕ",
+			"name": "SPC | jungseong | 1 | ㅕ",
 			"unicode": 57426,
 			"data": [
 				"...........###",
@@ -94848,7 +94953,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅖ",
+			"name": "SPC | jungseong | 1 | ㅖ",
 			"unicode": 57427,
 			"data": [
 				".............###",
@@ -94869,7 +94974,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅗ",
+			"name": "SPC | jungseong | 1 | ㅗ",
 			"unicode": 57428,
 			"data": [
 				".......##......",
@@ -94885,7 +94990,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅘ",
+			"name": "SPC | jungseong | 1 | ㅘ",
 			"unicode": 57429,
 			"data": [
 				"..........###...",
@@ -94906,7 +95011,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅙ",
+			"name": "SPC | jungseong | 1 | ㅙ",
 			"unicode": 57430,
 			"data": [
 				".............###",
@@ -94927,7 +95032,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅚ",
+			"name": "SPC | jungseong | 1 | ㅚ",
 			"unicode": 57431,
 			"data": [
 				"...........###",
@@ -94948,7 +95053,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅛ",
+			"name": "SPC | jungseong | 1 | ㅛ",
 			"unicode": 57432,
 			"data": [
 				".....##..##....",
@@ -94964,7 +95069,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅜ",
+			"name": "SPC | jungseong | 1 | ㅜ",
 			"unicode": 57433,
 			"data": [
 				".##############",
@@ -94979,7 +95084,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅝ",
+			"name": "SPC | jungseong | 1 | ㅝ",
 			"unicode": 57434,
 			"data": [
 				"...........###",
@@ -95000,7 +95105,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅞ",
+			"name": "SPC | jungseong | 1 | ㅞ",
 			"unicode": 57435,
 			"data": [
 				".............###",
@@ -95021,7 +95126,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅟ",
+			"name": "SPC | jungseong | 1 | ㅟ",
 			"unicode": 57436,
 			"data": [
 				"...........###",
@@ -95042,7 +95147,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅠ",
+			"name": "SPC | jungseong | 1 | ㅠ",
 			"unicode": 57437,
 			"data": [
 				".##############",
@@ -95057,7 +95162,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅡ",
+			"name": "SPC | jungseong | 1 | ㅡ",
 			"unicode": 57438,
 			"data": [
 				".##############",
@@ -95071,7 +95176,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅢ",
+			"name": "SPC | jungseong | 1 | ㅢ",
 			"unicode": 57439,
 			"data": [
 				"...........###",
@@ -95092,7 +95197,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 1 | ㅣ",
+			"name": "SPC | jungseong | 1 | ㅣ",
 			"unicode": 57440,
 			"data": [
 				"...........###",
@@ -95113,7 +95218,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅏ",
+			"name": "SPC | jungseong | 2 | ㅏ",
 			"unicode": 57441,
 			"data": [
 				"..........###...",
@@ -95134,7 +95239,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅐ",
+			"name": "SPC | jungseong | 2 | ㅐ",
 			"unicode": 57442,
 			"data": [
 				".............###",
@@ -95155,7 +95260,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅑ",
+			"name": "SPC | jungseong | 2 | ㅑ",
 			"unicode": 57443,
 			"data": [
 				"..........###...",
@@ -95176,7 +95281,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅒ",
+			"name": "SPC | jungseong | 2 | ㅒ",
 			"unicode": 57444,
 			"data": [
 				".............###",
@@ -95197,7 +95302,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅓ",
+			"name": "SPC | jungseong | 2 | ㅓ",
 			"unicode": 57445,
 			"data": [
 				"...........###",
@@ -95218,7 +95323,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅔ",
+			"name": "SPC | jungseong | 2 | ㅔ",
 			"unicode": 57446,
 			"data": [
 				".............###",
@@ -95239,7 +95344,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅕ",
+			"name": "SPC | jungseong | 2 | ㅕ",
 			"unicode": 57447,
 			"data": [
 				"...........###",
@@ -95260,7 +95365,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅖ",
+			"name": "SPC | jungseong | 2 | ㅖ",
 			"unicode": 57448,
 			"data": [
 				".............###",
@@ -95281,7 +95386,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅗ",
+			"name": "SPC | jungseong | 2 | ㅗ",
 			"unicode": 57449,
 			"data": [
 				"......###......",
@@ -95294,7 +95399,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅘ",
+			"name": "SPC | jungseong | 2 | ㅘ",
 			"unicode": 57450,
 			"data": [
 				"..........###...",
@@ -95315,7 +95420,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅙ",
+			"name": "SPC | jungseong | 2 | ㅙ",
 			"unicode": 57451,
 			"data": [
 				".............###",
@@ -95336,7 +95441,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅚ",
+			"name": "SPC | jungseong | 2 | ㅚ",
 			"unicode": 57452,
 			"data": [
 				"...........###",
@@ -95357,7 +95462,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅛ",
+			"name": "SPC | jungseong | 2 | ㅛ",
 			"unicode": 57453,
 			"data": [
 				"....###..###...",
@@ -95370,7 +95475,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅜ",
+			"name": "SPC | jungseong | 2 | ㅜ",
 			"unicode": 57454,
 			"data": [
 				".##############",
@@ -95383,7 +95488,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅝ",
+			"name": "SPC | jungseong | 2 | ㅝ",
 			"unicode": 57455,
 			"data": [
 				"...........###",
@@ -95404,7 +95509,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅞ",
+			"name": "SPC | jungseong | 2 | ㅞ",
 			"unicode": 57456,
 			"data": [
 				"............###",
@@ -95425,7 +95530,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅟ",
+			"name": "SPC | jungseong | 2 | ㅟ",
 			"unicode": 57457,
 			"data": [
 				"...........###",
@@ -95446,7 +95551,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅠ",
+			"name": "SPC | jungseong | 2 | ㅠ",
 			"unicode": 57458,
 			"data": [
 				".##############",
@@ -95459,7 +95564,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅡ",
+			"name": "SPC | jungseong | 2 | ㅡ",
 			"unicode": 57459,
 			"data": [
 				".##############",
@@ -95469,7 +95574,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅢ",
+			"name": "SPC | jungseong | 2 | ㅢ",
 			"unicode": 57460,
 			"data": [
 				"...........###",
@@ -95490,7 +95595,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jungseong | 2 | ㅣ",
+			"name": "SPC | jungseong | 2 | ㅣ",
 			"unicode": 57461,
 			"data": [
 				"...........###",
@@ -95511,11 +95616,11 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 |  ",
+			"name": "SPC | jongseong | 1 |  ",
 			"unicode": 57462
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄱ",
+			"name": "SPC | jongseong | 1 | ㄱ",
 			"unicode": 57463,
 			"data": [
 				"...##########",
@@ -95526,7 +95631,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄲ",
+			"name": "SPC | jongseong | 1 | ㄲ",
 			"unicode": 57464,
 			"data": [
 				"..#####.#####",
@@ -95537,7 +95642,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄳ",
+			"name": "SPC | jongseong | 1 | ㄳ",
 			"unicode": 57465,
 			"data": [
 				"..#####...##...",
@@ -95549,7 +95654,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄴ",
+			"name": "SPC | jongseong | 1 | ㄴ",
 			"unicode": 57466,
 			"data": [
 				"..###.........",
@@ -95560,7 +95665,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄵ",
+			"name": "SPC | jongseong | 1 | ㄵ",
 			"unicode": 57467,
 			"data": [
 				"..##....######.",
@@ -95572,7 +95677,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄶ",
+			"name": "SPC | jongseong | 1 | ㄶ",
 			"unicode": 57468,
 			"data": [
 				".###......##..",
@@ -95584,7 +95689,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄷ",
+			"name": "SPC | jongseong | 1 | ㄷ",
 			"unicode": 57469,
 			"data": [
 				"..###########",
@@ -95595,7 +95700,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄹ",
+			"name": "SPC | jongseong | 1 | ㄹ",
 			"unicode": 57470,
 			"data": [
 				"...##########",
@@ -95607,7 +95712,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄺ",
+			"name": "SPC | jongseong | 1 | ㄺ",
 			"unicode": 57471,
 			"data": [
 				"..######.#####",
@@ -95619,7 +95724,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄻ",
+			"name": "SPC | jongseong | 1 | ㄻ",
 			"unicode": 57472,
 			"data": [
 				"..#####.######",
@@ -95631,7 +95736,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄼ",
+			"name": "SPC | jongseong | 1 | ㄼ",
 			"unicode": 57473,
 			"data": [
 				"..#####.##..##",
@@ -95643,7 +95748,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄽ",
+			"name": "SPC | jongseong | 1 | ㄽ",
 			"unicode": 57474,
 			"data": [
 				"..#####...##...",
@@ -95655,7 +95760,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄾ",
+			"name": "SPC | jongseong | 1 | ㄾ",
 			"unicode": 57475,
 			"data": [
 				"..######.#####",
@@ -95667,7 +95772,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㄿ",
+			"name": "SPC | jongseong | 1 | ㄿ",
 			"unicode": 57476,
 			"data": [
 				"..####.#######",
@@ -95679,7 +95784,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅀ",
+			"name": "SPC | jongseong | 1 | ㅀ",
 			"unicode": 57477,
 			"data": [
 				"..#####...##..",
@@ -95691,7 +95796,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅁ",
+			"name": "SPC | jongseong | 1 | ㅁ",
 			"unicode": 57478,
 			"data": [
 				"..###########",
@@ -95702,7 +95807,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅂ",
+			"name": "SPC | jongseong | 1 | ㅂ",
 			"unicode": 57479,
 			"data": [
 				"..###.....###",
@@ -95714,7 +95819,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅄ",
+			"name": "SPC | jongseong | 1 | ㅄ",
 			"unicode": 57480,
 			"data": [
 				"..##..##...##..",
@@ -95726,7 +95831,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅅ",
+			"name": "SPC | jongseong | 1 | ㅅ",
 			"unicode": 57481,
 			"data": [
 				"......####....",
@@ -95738,7 +95843,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅆ",
+			"name": "SPC | jongseong | 1 | ㅆ",
 			"unicode": 57482,
 			"data": [
 				"...###....###..",
@@ -95749,7 +95854,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅇ",
+			"name": "SPC | jongseong | 1 | ㅇ",
 			"unicode": 57483,
 			"data": [
 				"....########.",
@@ -95760,7 +95865,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅈ",
+			"name": "SPC | jongseong | 1 | ㅈ",
 			"unicode": 57484,
 			"data": [
 				"..############",
@@ -95771,7 +95876,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅊ",
+			"name": "SPC | jongseong | 1 | ㅊ",
 			"unicode": 57485,
 			"data": [
 				"......####....",
@@ -95783,7 +95888,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅋ",
+			"name": "SPC | jongseong | 1 | ㅋ",
 			"unicode": 57486,
 			"data": [
 				"...##########",
@@ -95795,7 +95900,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅌ",
+			"name": "SPC | jongseong | 1 | ㅌ",
 			"unicode": 57487,
 			"data": [
 				"..###########",
@@ -95807,7 +95912,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅍ",
+			"name": "SPC | jongseong | 1 | ㅍ",
 			"unicode": 57488,
 			"data": [
 				"...##########",
@@ -95818,7 +95923,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 1 | ㅎ",
+			"name": "SPC | jongseong | 1 | ㅎ",
 			"unicode": 57489,
 			"data": [
 				"......####...",
@@ -95830,11 +95935,11 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 |  ",
+			"name": "SPC | jongseong | 2 |  ",
 			"unicode": 57490
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄱ",
+			"name": "SPC | jongseong | 2 | ㄱ",
 			"unicode": 57491,
 			"data": [
 				"...##########",
@@ -95846,7 +95951,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄲ",
+			"name": "SPC | jongseong | 2 | ㄲ",
 			"unicode": 57492,
 			"data": [
 				"..#####.#####",
@@ -95858,7 +95963,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄳ",
+			"name": "SPC | jongseong | 2 | ㄳ",
 			"unicode": 57493,
 			"data": [
 				"..#####...##...",
@@ -95870,7 +95975,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄴ",
+			"name": "SPC | jongseong | 2 | ㄴ",
 			"unicode": 57494,
 			"data": [
 				"..###.........",
@@ -95882,7 +95987,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄵ",
+			"name": "SPC | jongseong | 2 | ㄵ",
 			"unicode": 57495,
 			"data": [
 				".###....######.",
@@ -95894,7 +95999,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄶ",
+			"name": "SPC | jongseong | 2 | ㄶ",
 			"unicode": 57496,
 			"data": [
 				".###......##..",
@@ -95906,7 +96011,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄷ",
+			"name": "SPC | jongseong | 2 | ㄷ",
 			"unicode": 57497,
 			"data": [
 				"..###########",
@@ -95918,7 +96023,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄹ",
+			"name": "SPC | jongseong | 2 | ㄹ",
 			"unicode": 57498,
 			"data": [
 				"...##########",
@@ -95930,7 +96035,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄺ",
+			"name": "SPC | jongseong | 2 | ㄺ",
 			"unicode": 57499,
 			"data": [
 				"..######.#####",
@@ -95942,7 +96047,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄻ",
+			"name": "SPC | jongseong | 2 | ㄻ",
 			"unicode": 57500,
 			"data": [
 				"..#####.######",
@@ -95954,7 +96059,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄼ",
+			"name": "SPC | jongseong | 2 | ㄼ",
 			"unicode": 57501,
 			"data": [
 				"..#####.##..##",
@@ -95966,7 +96071,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄽ",
+			"name": "SPC | jongseong | 2 | ㄽ",
 			"unicode": 57502,
 			"data": [
 				"..#####...##...",
@@ -95978,7 +96083,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄾ",
+			"name": "SPC | jongseong | 2 | ㄾ",
 			"unicode": 57503,
 			"data": [
 				"..######.#####",
@@ -95990,7 +96095,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㄿ",
+			"name": "SPC | jongseong | 2 | ㄿ",
 			"unicode": 57504,
 			"data": [
 				"..####.#######",
@@ -96002,7 +96107,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅀ",
+			"name": "SPC | jongseong | 2 | ㅀ",
 			"unicode": 57505,
 			"data": [
 				"..#####...##..",
@@ -96014,7 +96119,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅁ",
+			"name": "SPC | jongseong | 2 | ㅁ",
 			"unicode": 57506,
 			"data": [
 				"..###########",
@@ -96026,7 +96131,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅂ",
+			"name": "SPC | jongseong | 2 | ㅂ",
 			"unicode": 57507,
 			"data": [
 				"..###.....###",
@@ -96038,7 +96143,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅄ",
+			"name": "SPC | jongseong | 2 | ㅄ",
 			"unicode": 57508,
 			"data": [
 				"..##..##...##..",
@@ -96050,7 +96155,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅅ",
+			"name": "SPC | jongseong | 2 | ㅅ",
 			"unicode": 57509,
 			"data": [
 				"......###.....",
@@ -96063,7 +96168,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅆ",
+			"name": "SPC | jongseong | 2 | ㅆ",
 			"unicode": 57510,
 			"data": [
 				".....###..###..",
@@ -96075,7 +96180,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅇ",
+			"name": "SPC | jongseong | 2 | ㅇ",
 			"unicode": 57511,
 			"data": [
 				".....######...",
@@ -96087,7 +96192,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅈ",
+			"name": "SPC | jongseong | 2 | ㅈ",
 			"unicode": 57512,
 			"data": [
 				"..############",
@@ -96099,7 +96204,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅊ",
+			"name": "SPC | jongseong | 2 | ㅊ",
 			"unicode": 57513,
 			"data": [
 				"......####....",
@@ -96112,7 +96217,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅋ",
+			"name": "SPC | jongseong | 2 | ㅋ",
 			"unicode": 57514,
 			"data": [
 				"...##########",
@@ -96124,7 +96229,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅌ",
+			"name": "SPC | jongseong | 2 | ㅌ",
 			"unicode": 57515,
 			"data": [
 				"..###########",
@@ -96136,7 +96241,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅍ",
+			"name": "SPC | jongseong | 2 | ㅍ",
 			"unicode": 57516,
 			"data": [
 				"...##########",
@@ -96148,7 +96253,7 @@
 			]
 		},
 		{
-			"name": "ZIK | jongseong | 2 | ㅎ",
+			"name": "SPC | jongseong | 2 | ㅎ",
 			"unicode": 57517,
 			"data": [
 				".......##....",
@@ -96161,7 +96266,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㄱ",
+			"name": "SPC | choseong | 2 | ㄱ",
 			"unicode": 57518,
 			"data": [
 				"...##########",
@@ -96181,7 +96286,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㄲ",
+			"name": "SPC | choseong | 2 | ㄲ",
 			"unicode": 57519,
 			"data": [
 				"..#####.#####",
@@ -96201,7 +96306,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㄴ",
+			"name": "SPC | choseong | 2 | ㄴ",
 			"unicode": 57520,
 			"data": [
 				"..###........",
@@ -96221,7 +96326,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㄷ",
+			"name": "SPC | choseong | 2 | ㄷ",
 			"unicode": 57521,
 			"data": [
 				"..###########",
@@ -96241,7 +96346,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㄸ",
+			"name": "SPC | choseong | 2 | ㄸ",
 			"unicode": 57522,
 			"data": [
 				"..#####.#####",
@@ -96261,7 +96366,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㄹ",
+			"name": "SPC | choseong | 2 | ㄹ",
 			"unicode": 57523,
 			"data": [
 				"...##########",
@@ -96281,7 +96386,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅁ",
+			"name": "SPC | choseong | 2 | ㅁ",
 			"unicode": 57524,
 			"data": [
 				"..###########",
@@ -96301,7 +96406,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅂ",
+			"name": "SPC | choseong | 2 | ㅂ",
 			"unicode": 57525,
 			"data": [
 				"..........###",
@@ -96322,7 +96427,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅃ",
+			"name": "SPC | choseong | 2 | ㅃ",
 			"unicode": 57526,
 			"data": [
 				"..........###",
@@ -96343,7 +96448,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅅ",
+			"name": "SPC | choseong | 2 | ㅅ",
 			"unicode": 57527,
 			"data": [
 				".......##.....",
@@ -96363,7 +96468,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅆ",
+			"name": "SPC | choseong | 2 | ㅆ",
 			"unicode": 57528,
 			"data": [
 				"...###....###..",
@@ -96383,7 +96488,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅇ",
+			"name": "SPC | choseong | 2 | ㅇ",
 			"unicode": 57529,
 			"data": [
 				"....########.",
@@ -96403,7 +96508,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅈ",
+			"name": "SPC | choseong | 2 | ㅈ",
 			"unicode": 57530,
 			"data": [
 				"...##########.",
@@ -96423,7 +96528,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅉ",
+			"name": "SPC | choseong | 2 | ㅉ",
 			"unicode": 57531,
 			"data": [
 				"..#####.######.",
@@ -96443,7 +96548,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅊ",
+			"name": "SPC | choseong | 2 | ㅊ",
 			"unicode": 57532,
 			"data": [
 				"......####....",
@@ -96463,7 +96568,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅋ",
+			"name": "SPC | choseong | 2 | ㅋ",
 			"unicode": 57533,
 			"data": [
 				"...##########",
@@ -96483,7 +96588,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅌ",
+			"name": "SPC | choseong | 2 | ㅌ",
 			"unicode": 57534,
 			"data": [
 				"..###########",
@@ -96503,7 +96608,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅍ",
+			"name": "SPC | choseong | 2 | ㅍ",
 			"unicode": 57535,
 			"data": [
 				"...##########",
@@ -96523,7 +96628,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 3 | ㅎ",
+			"name": "SPC | choseong | 2 | ㅎ",
 			"unicode": 57536,
 			"data": [
 				"......####...",
@@ -96544,7 +96649,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㄱ",
+			"name": "SPC | choseong | 5 | ㄱ",
 			"unicode": 57537,
 			"data": [
 				"...##########",
@@ -96563,7 +96668,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㄲ",
+			"name": "SPC | choseong | 5 | ㄲ",
 			"unicode": 57538,
 			"data": [
 				"..#####.#####",
@@ -96582,7 +96687,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㄴ",
+			"name": "SPC | choseong | 5 | ㄴ",
 			"unicode": 57539,
 			"data": [
 				"..###.........",
@@ -96601,7 +96706,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㄷ",
+			"name": "SPC | choseong | 5 | ㄷ",
 			"unicode": 57540,
 			"data": [
 				"..###########",
@@ -96620,7 +96725,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㄸ",
+			"name": "SPC | choseong | 5 | ㄸ",
 			"unicode": 57541,
 			"data": [
 				"..#####.#####",
@@ -96639,7 +96744,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㄹ",
+			"name": "SPC | choseong | 5 | ㄹ",
 			"unicode": 57542,
 			"data": [
 				"...##########",
@@ -96658,7 +96763,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅁ",
+			"name": "SPC | choseong | 5 | ㅁ",
 			"unicode": 57543,
 			"data": [
 				"..###########",
@@ -96677,7 +96782,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅂ",
+			"name": "SPC | choseong | 5 | ㅂ",
 			"unicode": 57544,
 			"data": [
 				"..........###",
@@ -96697,7 +96802,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅃ",
+			"name": "SPC | choseong | 5 | ㅃ",
 			"unicode": 57545,
 			"data": [
 				"..........###",
@@ -96717,7 +96822,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅅ",
+			"name": "SPC | choseong | 5 | ㅅ",
 			"unicode": 57546,
 			"data": [
 				".......###....",
@@ -96737,7 +96842,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅆ",
+			"name": "SPC | choseong | 5 | ㅆ",
 			"unicode": 57547,
 			"data": [
 				"...###....###..",
@@ -96756,7 +96861,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅇ",
+			"name": "SPC | choseong | 5 | ㅇ",
 			"unicode": 57548,
 			"data": [
 				".....######...",
@@ -96775,7 +96880,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅈ",
+			"name": "SPC | choseong | 5 | ㅈ",
 			"unicode": 57549,
 			"data": [
 				"...###########.",
@@ -96794,7 +96899,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅉ",
+			"name": "SPC | choseong | 5 | ㅉ",
 			"unicode": 57550,
 			"data": [
 				"..############",
@@ -96813,7 +96918,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅊ",
+			"name": "SPC | choseong | 5 | ㅊ",
 			"unicode": 57551,
 			"data": [
 				"......####....",
@@ -96833,7 +96938,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅋ",
+			"name": "SPC | choseong | 5 | ㅋ",
 			"unicode": 57552,
 			"data": [
 				"...##########",
@@ -96852,7 +96957,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅌ",
+			"name": "SPC | choseong | 5 | ㅌ",
 			"unicode": 57553,
 			"data": [
 				"..###########",
@@ -96871,7 +96976,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅍ",
+			"name": "SPC | choseong | 5 | ㅍ",
 			"unicode": 57554,
 			"data": [
 				"...##########",
@@ -96890,7 +96995,7 @@
 			]
 		},
 		{
-			"name": "ZIK_6 | choseong | 6 | ㅎ",
+			"name": "SPC | choseong | 5 | ㅎ",
 			"unicode": 57555,
 			"data": [
 				"......####...",
