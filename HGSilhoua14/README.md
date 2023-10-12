@@ -1,4 +1,4 @@
-# Silhoua14_Font
+# HGSilhoua14_Font
 ![](image/title.png)
 
 7x14 크기의 비트맵 폰트
