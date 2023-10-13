@@ -110,5 +110,5 @@ for i in range(max_sybal):
         else:
             printf("\"\n")
 
-    printf("\t\t\t\t],\n")
+    printf("\t\t\t\t]\n")
 fp.close()
