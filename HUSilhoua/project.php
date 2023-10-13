@@ -1,9 +1,11 @@
 {
 	"version": 1,
 	"attr": {
-		"name": "HU실루아14",
-		"psname": "HUSilhoua14",
-		"author": "windowstiger",
+		"name": "HU실루아",
+		"psname": "HUSilhoua",
+      	"style": "regular",
+		"author": "Taeyun An (WindowsTiger)",
+    	"licence": "SIL Open Font License 1.1",
 		"widthType": "monospace",
 		"fixedWidth": 8,
 		"spaceWidth": 4,

@@ -1,9 +1,11 @@
 {
 	"version": 1,
 	"attr": {
-		"name": "HU신이문1500",
-		"psname": "HUSinimun1500",
-		"author": "windowstiger",
+		"name": "HU신이문",
+		"psname": "HUSinimun",
+      	"style": "regular",
+		"author": "Taeyun An (WindowsTiger)",
+    	"licence": "SIL Open Font License 1.1",
 		"widthType": "monospace",
 		"fixedWidth": 8,
 		"spaceWidth": 4,
@@ -29,9 +31,6 @@
 				"......",
 				"......",
 				"......"
-			],
-			"components": [
-				9632
 			]
 		},
 		{

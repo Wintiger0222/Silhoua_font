@@ -1,9 +1,11 @@
 {
 	"version": 1,
 	"attr": {
-		"name": "HU비올라300",
-		"name": "HUViola200",
-		"author": "windowstiger",
+		"name": "HU아현리",
+		"psname": "HUAhyunri",
+      	"style": "regular",
+		"author": "Taeyun An (WindowsTiger)",
+    	"licence": "SIL Open Font License 1.1",
 		"widthType": "monospace",
 		"fixedWidth": 6,
 		"spaceWidth": 6,
