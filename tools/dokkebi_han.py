@@ -13,26 +13,6 @@ chosung_len=len(chosung_list)
 jungsung_len=len(jungsung_list)
 jongsung_len=len(jongsung_list)
 
-choseong_desc = [
-    "받침 없는 [ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅣ] 와 결합",
-    "받침 없는 [ㅗ ㅛ ㅡ]",
-    "받침 없는 [ㅜ ㅠ]",
-    "받침 없는 [ㅘ ㅙ ㅚ ㅢ]",
-    "받침 없는 [ㅝ ㅞ ㅟ]",
-    "받침 있는 [ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅣ] 와 결합",
-    "받침 있는 [ㅗ ㅛ ㅜ ㅠ ㅡ]",
-    "받침 있는 [ㅘ ㅙ ㅚ ㅢ ㅝ ㅞ ㅟ]",]
-jungseong_desc = [
-    "받침 없는 [ㄱ ㅋ] 와 결합 (EX : 괴, 가, 큐, 캬)",
-    "받침 없는 [ㄱ ㅋ] 이외의 자음과 결합 (EX : 외, 나, 류, 먀)",
-    "받침 있는 [ㄱ ㅋ] 와 결합 (EX : 광, 쾅, 굉, 괽)",
-    "받침 있는 [ㄱ ㅋ] 이외의 자음과 결합 (EX : 웅, 얅, 약, 약)"]
-jongseong_desc = [
-    "중성 [ㅏ ㅑ ㅘ] 와 결합",
-    "중성 [ㅓ ㅕ ㅚ ㅝ ㅟ ㅢ ㅣ]",
-    "중성 [ㅐ ㅒ ㅔ ㅖ ㅙ ㅞ]",
-    "중성 [ㅗ ㅛ ㅜ ㅠ ㅡ]"]
-
 max_jamo = [8, 4, 4] #8x4x4벌
 def HangulTemplate(cho, jung, jong):
     
@@ -81,22 +61,32 @@ fp = open(file , 'rb')
 fp.seek(start)
 max_sybal=(max_jamo[0] * chosung_len) + (max_jamo[1] * jungsung_len) + (max_jamo[2] * jongsung_len)
 for i in range(max_sybal):
+
+    current = 0
+    if i < (max_jamo[0] * chosung_len):
+        current = 1
+    elif i < (max_jamo[0] * chosung_len) + (max_jamo[1] * jungsung_len):
+        current = 2
+    elif i < max_sybal:
+        current = 3
+    
     printf("\t\t\t\t\"unicode\": " + str(i + PUA_start) + ",\n")
+    
     #name print
     printf("\t\t\t\t\"name\": \"DKB | ")
-    if i < (max_jamo[0] * chosung_len):
+    if current == 1:
         printf("choseong | " + str(i//chosung_len + 1) + " | " + chosung_list[i%chosung_len] + "\",\n")
-    elif i < (max_jamo[0] * chosung_len) + (max_jamo[1] * jungsung_len):
+    elif current == 2:
         temp = i - (max_jamo[0] * chosung_len)
         printf("jungseong | " + str(temp//jungsung_len + 1) + " | " + jungsung_list[temp%jungsung_len] + "\",\n")
-    elif i < max_sybal:
+    elif current == 3:
         temp = i - (max_jamo[0] * chosung_len) - (max_jamo[1] * jungsung_len)
         printf("jongseong | " + str(temp//jongsung_len + 1) + " | " + jongsung_list[temp%jongsung_len] + "\",\n")
     else:
         printf("\",\n")
-        
+    
+    #data print        
     printf("\t\t\t\t\"data\": [\n")
-    #vertical
     for h in range(width):
         printf("\t\t\t\t\t\"")
         # horizon
