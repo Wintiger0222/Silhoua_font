@@ -31,6 +31,18 @@
       font-style: normal;
 }
 @font-face {
+    font-family: HU태백고딕16;
+    src:url(./HUTaebeak/HUTaebeakGothic16.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: HU애오개;
+    src:url(./HUAeogae/HUAeogae.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
     font-family: 'DOSMyungjo';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
     font-weight: normal;

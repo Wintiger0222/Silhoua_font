@@ -52,14 +52,18 @@ def UTF2CJJ(code):
 
 
 if len(argv) < 2:
-  print ('[*] Usage: python dokkebi_han.py <input_file> <start> [width]')
+  print ('[*] Usage: python dokkebi_han.py <input_file> <start> [width] [height]')
   exit()
 
 file  = argv[1]
 start = int(argv[2], 16)
 width = 16
+height = width
 if len(argv) > 2:
     width = int(argv[3])
+    height = width
+if len(argv) > 3:
+    height = int(argv[4])
 
 for i in range(44032,55203):
     printf("\t\t{\n")
@@ -103,7 +107,7 @@ for i in range(max_sybal):
     
     #data print        
     printf("\t\t\t\"data\": [\n")
-    for h in range(width):
+    for h in range(height):
         printf("\t\t\t\t\"")
         # horizon
         for w in range(math.ceil(width/8)):
@@ -111,7 +115,7 @@ for i in range(max_sybal):
             bin_val = format(value, 'b').zfill(8).replace('1','#').replace('0','.')
             printf(bin_val)
 
-        if h < width-1:
+        if h < height-1:
             printf("\",\n")
         else:
             printf("\"\n")
