@@ -6,12 +6,15 @@ PUA_start=57344
 def printf(temp):
     print(temp, end="")
 
-chosung_list = ['ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
-jungsung_list = ['ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ', 'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ', 'ㅣ']
+chosung_list = [' ', 'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
+jungsung_list = [' ', 'ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ', 'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ', 'ㅣ']
 jongsung_list = [' ', 'ㄱ', 'ㄲ', 'ㄳ', 'ㄴ', 'ㄵ', 'ㄶ', 'ㄷ', 'ㄹ', 'ㄺ', 'ㄻ', 'ㄼ', 'ㄽ', 'ㄾ', 'ㄿ', 'ㅀ', 'ㅁ', 'ㅂ', 'ㅄ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
 chosung_len=len(chosung_list)
 jungsung_len=len(jungsung_list)
 jongsung_len=len(jongsung_list)
+
+jamo_list = [chosung_list, jungsung_list, jongsung_list]
+jamo_len = [chosung_len, jungsung_len, jongsung_len]
 
 max_jamo = [8, 4, 4] #8x4x4벌
 def HangulTemplate(cho, jung, jong):
@@ -29,19 +32,23 @@ def HangulTemplate(cho, jung, jong):
 
 
 def UTF2CJJ(code):
-    cho  = (code - ord('가'))//(jongsung_len*jungsung_len)
-    jung = ((code - ord('가')) - ((jongsung_len*jungsung_len)*cho)) // jongsung_len
-    jong = (code - ord('가')) - ((jongsung_len*jungsung_len)*cho) - jongsung_len*jung
+    cho  = (code - ord('가'))//(21*28)
+    jung = ((code - ord('가')) - ((21*28)*cho)) // 28
+    jong = (code - ord('가')) - ((21*28)*cho) - 28*jung
 
     result = HangulTemplate(cho, jung, jong)
 
-    return [PUA_start + result[0] * chosung_len + cho,
-        PUA_start + (max_jamo[0] * chosung_len) + (result[1] * jungsung_len) + jung,
-        PUA_start + (max_jamo[0] * chosung_len) + (max_jamo[1] * jungsung_len) + (result[2] * jongsung_len) + jong
-    ]
+    if jong == 0:
+        return [PUA_start + result[0] * chosung_len + cho + 1,#blank fix
+            PUA_start + (max_jamo[0] * chosung_len) + (result[1] * jungsung_len) + jung + 1#blank fix
+        ]
+    else:
+        return [PUA_start + result[0] * chosung_len + cho + 1,#blank fix
+            PUA_start + (max_jamo[0] * chosung_len) + (result[1] * jungsung_len) + jung + 1,#blank fix
+            PUA_start + (max_jamo[0] * chosung_len) + (max_jamo[1] * jungsung_len) + (result[2] * jongsung_len) + jong
+        ]
 
 
-print(UTF2CJJ(49395))
 
 
 if len(argv) < 2:
@@ -54,8 +61,12 @@ width = 16
 if len(argv) > 2:
     width = int(argv[3])
 
-
-
+for i in range(44032,55203):
+    printf("\t\t{\n")
+    printf("\t\t\t\"unicode\": " + str(i) + ",\n")
+    printf("\t\t\t\"components\": ")
+    print(UTF2CJJ(i))
+    printf("\t\t},\n")
 
 fp = open(file , 'rb')
 fp.seek(start)
@@ -70,25 +81,30 @@ for i in range(max_sybal):
     elif i < max_sybal:
         current = 3
     
-    printf("\t\t\t\t\"unicode\": " + str(i + PUA_start) + ",\n")
+    printf("\t\t{\n")
+    printf("\t\t\t\"unicode\": " + str(i + PUA_start) + ",\n")
     
     #name print
-    printf("\t\t\t\t\"name\": \"DKB | ")
+    printf("\t\t\t\"name\": \"DKB | ")
     if current == 1:
-        printf("choseong | " + str(i//chosung_len + 1) + " | " + chosung_list[i%chosung_len] + "\",\n")
+        temp = i
+        printf("choseong | ")
     elif current == 2:
         temp = i - (max_jamo[0] * chosung_len)
-        printf("jungseong | " + str(temp//jungsung_len + 1) + " | " + jungsung_list[temp%jungsung_len] + "\",\n")
+        printf("jungseong | ")
     elif current == 3:
         temp = i - (max_jamo[0] * chosung_len) - (max_jamo[1] * jungsung_len)
-        printf("jongseong | " + str(temp//jongsung_len + 1) + " | " + jongsung_list[temp%jongsung_len] + "\",\n")
+        printf("jongseong | ")
+
+    if current != 0:
+        printf(str(temp//jamo_len[current-1] + 1) + " | " + jamo_list[current-1][temp%jamo_len[current-1]] + "\",\n")
     else:
         printf("\",\n")
     
     #data print        
-    printf("\t\t\t\t\"data\": [\n")
+    printf("\t\t\t\"data\": [\n")
     for h in range(width):
-        printf("\t\t\t\t\t\"")
+        printf("\t\t\t\t\"")
         # horizon
         for w in range(width//8):
             value = fp.read(1)[0]
@@ -100,5 +116,6 @@ for i in range(max_sybal):
         else:
             printf("\"\n")
 
-    printf("\t\t\t\t]\n")
+    printf("\t\t\t]\n")
+    printf("\t\t},\n")
 fp.close()
