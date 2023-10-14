@@ -1,5 +1,5 @@
 from sys import argv, exit
-
+import math
 
 PUA_start=57344
 
@@ -106,7 +106,7 @@ for i in range(max_sybal):
     for h in range(width):
         printf("\t\t\t\t\"")
         # horizon
-        for w in range(width//8):
+        for w in range(math.ceil(width/8)):
             value = fp.read(1)[0]
             bin_val = format(value, 'b').zfill(8).replace('1','#').replace('0','.')
             printf(bin_val)
