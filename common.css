@@ -95,3 +95,9 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: MSX1;
+    src: url('./web_rendering/MSX1-Korean-pre-alpha-0.0.1.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
