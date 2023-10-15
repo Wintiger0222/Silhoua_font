@@ -527,16 +527,17 @@ a:active {
 
 html, body, main {
 	height : 100vh;
+	width : 100wh;
 }
 
 body{
-	position : fixed;
 	overflow : hidden;
     margin:0
 }
 
 #middle-box {
     margin: 0 auto;
+    width:min(1400px,100wh);
     height:calc(100vh - 34px);
     overflow: auto;
 }
