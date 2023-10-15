@@ -5,6 +5,7 @@ PUA_start=57344
 
 def printf(temp):
     print(temp, end="")
+    outFile.write(temp)
 
 
 CP437_list = "\x00☺☻♥♦♣♠•◘○◙♂♀♪♫☼►◄↕‼¶§▬↨↑↓→←∟↔▲▼ !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\x5C]^_`abcdefghijklmnopqrstuvwxyz{|}~⌂ÇüéâäàåçêëèïîìÄÅÉæÆôöòûùÿÖÜ¢£¥₧ƒáíóúñÑªº¿⌐¬½¼¡«»░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀αßΓπΣσµτΦΘΩδ∞φε∩≡±≥≤⌠⌡÷≈°∙·√ⁿ²■\xA0"
@@ -19,13 +20,19 @@ height = 16
 if len(argv) > 2:
     height = int(argv[3])
 
-
+mode = 1
 
 fp = open(file , 'rb')
 fp.seek(start)
+
+outFile = open(file.replace(()"."+file.split('.')[-1]),'.json'),'w',encoding='utf-8')
+
 for i in range(len(CP437_list)):
     printf("\t\t{\n")
-    printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
+    if (i<0x20 or i>0x7f) and mode == 1:
+        printf("\t\t\t\"unicode\": " + str(0xF000+i) + ",\n")
+    else:
+        printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
     
     #data print        
     printf("\t\t\t\"data\": [\n")

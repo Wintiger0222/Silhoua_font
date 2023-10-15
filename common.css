@@ -114,3 +114,337 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+
+
+@font-face {
+    font-family: SAN반명조체;
+    src:url(./HUSan/kor/SANBanmyeongjoche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN바람;
+    src:url(./HUSan/kor/SANBaram.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN보통;
+    src:url(./HUSan/kor/SANBotong.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN보통2;
+    src:url(./HUSan/kor/SANBotong2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN부드러운;
+    src:url(./HUSan/kor/SANBudeureoun.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN달리;
+    src:url(./HUSan/kor/SANDalli.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN디나루체;
+    src:url(./HUSan/kor/SANDinaruche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN도깨비디나루;
+    src:url(./HUSan/kor/SANDokkaebiDinaru.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN도깨비고딕;
+    src:url(./HUSan/kor/SANDokkaebiGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN가는고딕;
+    src:url(./HUSan/kor/SANGaneunGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN가는장식고딕;
+    src:url(./HUSan/kor/SANGaneunJangsikGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN가는샘물체;
+    src:url(./HUSan/kor/SANGaneunSaemmulche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN기울임체;
+    src:url(./HUSan/kor/SANGiurimche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN기울임체2;
+    src:url(./HUSan/kor/SANGiurimche2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN굵은장식고딕;
+    src:url(./HUSan/kor/SANGulgeunJangsikGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN굵은샘물체;
+    src:url(./HUSan/kor/SANGulgeunSaemmulche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN한글명조체;
+    src:url(./HUSan/kor/SANHangeulMyeongjoche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN한메본문체;
+    src:url(./HUSan/kor/SANHanmeBonmunche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN한메가는체;
+    src:url(./HUSan/kor/SANHanmeGaneunche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN한메고딕;
+    src:url(./HUSan/kor/SANHanmeGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN한메샘물체;
+    src:url(./HUSan/kor/SANHanmeSaemmulche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN한석봉체;
+    src:url(./HUSan/kor/SANHanseokbongche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN흘림체;
+    src:url(./HUSan/kor/SANHeullimche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN흘림체2;
+    src:url(./HUSan/kor/SANHeullimche2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN임꺽정체;
+    src:url(./HUSan/kor/SANImkkeokjeongche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN이야기안상수체;
+    src:url(./HUSan/kor/SANIyagiAnsangsuche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN이야기굵은체;
+    src:url(./HUSan/kor/SANIyagiGulgeunche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN이야기굵은체2;
+    src:url(./HUSan/kor/SANIyagiGulgeunche2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN이야기굵은체3;
+    src:url(./HUSan/kor/SANIyagiGulgeunche3.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN이야기삼벌식;
+    src:url(./HUSan/kor/SANIyagiSambeolsik.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN장식고딕;
+    src:url(./HUSan/kor/SANJangsikGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN중간고딕;
+    src:url(./HUSan/kor/SANJungganGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN키작은체;
+    src:url(./HUSan/kor/SANKijageunche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN꼬마;
+    src:url(./HUSan/kor/SANKkoma.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN명조체;
+    src:url(./HUSan/kor/SANMyeongjoche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN판본체;
+    src:url(./HUSan/kor/SANPanbonche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN판본체2;
+    src:url(./HUSan/kor/SANPanbonche2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN판본체3;
+    src:url(./HUSan/kor/SANPanbonche3.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN폴;
+    src:url(./HUSan/kor/SANPaul.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN파울루스;
+    src:url(./HUSan/kor/SANPaulus.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN반명조체;
+    src:url(./HUSan/kor/SANBanmyeongjoche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SANPC체;
+    src:url(./HUSan/kor/SANPCche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN필기체;
+    src:url(./HUSan/kor/SANPilgiche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN포항공대2;
+    src:url(./HUSan/kor/SANPohanggongdae2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN샘;
+    src:url(./HUSan/kor/SANSaem.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN샘2;
+    src:url(./HUSan/kor/SANSaem2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN샘명조;
+    src:url(./HUSan/kor/SANSaemmMeongjo.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN사과;
+    src:url(./HUSan/kor/SANSagwa.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN삼보고딕;
+    src:url(./HUSan/kor/SANSamboGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN서기2400;
+    src:url(./HUSan/kor/SANSeogi2400.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN스러짐체;
+    src:url(./HUSan/kor/SANSamboGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN스러짐체;
+    src:url(./HUSan/kor/SANSeureojimche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN손글씨체;
+    src:url(./HUSan/kor/SANSamboGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN태백필기2;
+    src:url(./HUSan/kor/SANTaebaekPilgi2.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: SAN태백필기체;
+    src:url(./HUSan/kor/SANTaebaekPilgiche.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}

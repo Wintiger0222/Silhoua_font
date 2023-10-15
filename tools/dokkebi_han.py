@@ -4,7 +4,9 @@ import math
 PUA_start=57344
 
 def printf(temp):
-    print(temp, end="")
+    # print(temp, end="")
+    outFile.write(temp)
+
 
 chosung_list = [' ', 'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ']
 jungsung_list = [' ', 'ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ', 'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ', 'ㅣ']
@@ -65,11 +67,14 @@ if len(argv) > 2:
 if len(argv) > 3:
     height = int(argv[4])
 
+outFile = open(file.replace(("."+file.split('.')[-1]),'.json'),'w',encoding='utf-8')
+
+
 for i in range(44032,55203):
     printf("\t\t{\n")
     printf("\t\t\t\"unicode\": " + str(i) + ",\n")
     printf("\t\t\t\"components\": ")
-    print(UTF2CJJ(i))
+    printf(str(UTF2CJJ(i))+"\n")
     printf("\t\t},\n")
 
 fp = open(file , 'rb')
