@@ -275,6 +275,12 @@
       font-style: normal;
 }
 @font-face {
+    font-family: SAN굵은고딕;
+    src:url(./HUSan/kor/SANGulgeunGothic.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
     font-family: SAN이야기굵은체;
     src:url(./HUSan/kor/SANIyagiGulgeunche.woff2) format('woff2');
       font-weight: normal;
