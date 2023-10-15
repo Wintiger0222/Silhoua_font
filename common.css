@@ -115,6 +115,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: PokemonGSK2;
+    src: url('./web_rendering/PokemonGSK2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: PokemonGSK2mono;
+    src: url('./web_rendering/PokemonGSK2mono.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -455,6 +467,15 @@
       font-weight: normal;
       font-style: normal;
 }
+
+
+
+
+
+
+
+
+/*******************CSS Part*******************/
 :root {
     --bg-color: rgb(0,84,170);
     --text-color: white;
