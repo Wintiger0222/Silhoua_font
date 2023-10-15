@@ -1,3 +1,4 @@
+
 @import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
 @import url("https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css");
 @font-face {
@@ -453,4 +454,92 @@
     src:url(./HUSan/kor/SANTaebaekPilgiche.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+}
+:root {
+    --bg-color: rgb(0,84,170);
+    --text-color: white;
+    --default-font: "HBIOS-SYS";
+    --default-size: 16px;
+}
+#size-title {
+    background-color:var(--text-color);
+    color:var(--bg-color);
+}
+
+#size-title-disable {
+    background-color:rgb(170,170,170);
+    color:var(--bg-color);
+}
+/*only for gulim*/
+#font-disable {
+    color:rgb(170,170,170);
+}
+
+
+#top-bar {
+    width:100vw;
+    padding-top:1px;
+    padding-bottom:1px;
+    position: fixed;
+    background-color:var(--bg-color);
+    top:0px;
+    left:0px;
+    text-align: center;
+    border-bottom: solid 1px var(--text-color);
+}
+
+#top-menu-text {
+    margin: 0 auto;
+    text-align:left;
+    display:block;
+    width:min(1400px,100vw);
+    color:var(--text-color);
+    font-family: var(--default-font);
+    font-size: var(--default-size);
+
+}
+
+.button:hover{
+    background-color:var(--text-color);
+    color:var(--bg-color);
+
+}
+
+#bottom-bar {
+    
+    padding-top:1px;
+    padding-bottom:1px;
+    width:100vw;
+    height:18px;
+    position: fixed;
+    background-color:var(--bg-color);
+    bottom:0px;
+    left:0px;
+    text-align: center;
+    border-top: solid 1px var(--text-color);
+}
+
+#bottom-menu-box {
+    position: relative;
+    display:block;
+    margin: 0 auto;
+    width:min(1400px,100vw);
+}
+
+#bottom-text-left {
+    position:absolute;
+    left:0;
+    text-align:left;
+    color:white;
+    font-family: var(--default-font);
+    font-size: var(--default-size);
+
+}
+#bottom-text-right {
+    position:absolute;
+    right:20px;
+    text-align:right;
+    color:white;
+    font-family: var(--default-font);
+    font-size: var(--default-size);
 }
