@@ -482,6 +482,18 @@
     --default-font: "MiraeroNormal";
     --default-size: 24px;
 }
+
+table {
+    table-layout: fixed;
+    border-collapse: separate;
+  }
+td {
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
 ::selection {
     background-color:var(--text-color);
     color:var(--bg-color);
