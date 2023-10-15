@@ -461,6 +461,18 @@
     --default-font: "MiraeroNormal";
     --default-size: 24px;
 }
+::selection {
+    background-color:var(--text-color);
+    color:var(--bg-color);
+
+
+}
+::-moz-selection {
+    background-color:var(--text-color);
+    color:var(--bg-color);
+
+}
+
 #size-title {
     background-color:var(--text-color);
     color:var(--bg-color);
