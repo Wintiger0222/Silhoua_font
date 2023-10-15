@@ -525,8 +525,13 @@ a:active {
     background-color:var(--text-color);
 }
 
+html, body, main {
+	height : 100vh;
+}
 
 body{
+	position : fixed;
+	overflow : hidden;
     margin:0
 }
 
