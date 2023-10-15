@@ -512,10 +512,50 @@
     color:rgb(170,170,170);
 }
 
+a:link,
+a:visited {
+    color : yellow;
+}
+a:hover {
+  color : var(--bg-color);
+  background-color:yellow;
+}
+a:active {
+    color : var(--bg-color);
+    background-color:var(--text-color);
+}
 
+
+body{
+    margin:0
+}
+
+#middle-box {
+    margin: 0 auto;
+    height:calc(100vh - 34px);
+    overflow: auto;
+}
+
+/* 스크롤바 전체 기본 꾸미기 */
+#middle-box::-webkit-scrollbar {
+    width: 16px;  /* 스크롤바의 너비 */
+    height: 16px;  /* 스크롤바의 너비 */
+}
+
+/* 스크롤바 막대 꾸미기 */
+#middle-box::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: var(--text-color); /* 스크롤바의 색상 */
+}
+
+/* 스크롤바 트랙 꾸미기 */
+#middle-box::-webkit-scrollbar-track {
+    background: rgb(104,180,255); /* 스크롤바의 색상 */
+}
+
+/* menubar */
 #top-bar {
     width:100vw;
-    position: fixed;
     background-color:var(--bg-color);
     top:0px;
     left:0px;
@@ -544,7 +584,6 @@
     
     width:100vw;
     height:18px;
-    position: fixed;
     background-color:var(--bg-color);
     bottom:0px;
     left:0px;
