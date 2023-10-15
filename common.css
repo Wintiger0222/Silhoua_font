@@ -8,6 +8,10 @@
     src: url('https://windos.quiple.dev//WinKor.woff2') format('woff2')
 }
 @font-face {
+  font-family: dalmoori;
+  src: url('https://ranolp.github.io/dalmoori-font/latest-stable/dalmoori.woff2');
+}
+@font-face {
     font-family: HU신이문;
     src:url(./HUSinimun/HUSinimun.woff2) format('woff2');
       font-weight: normal;
@@ -42,6 +46,12 @@
     src:url(./HUAeogae/HUAeogae.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+}
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'DOSMyungjo';
