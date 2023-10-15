@@ -458,17 +458,21 @@
 :root {
     --bg-color: rgb(0,84,170);
     --text-color: white;
-    --default-font: "HBIOS-SYS";
-    --default-size: 16px;
+    --default-font: "MiraeroNormal";
+    --default-size: 24px;
 }
 #size-title {
     background-color:var(--text-color);
     color:var(--bg-color);
+    font-family: var(--default-font);
+    font-size: var(--default-size);
 }
 
 #size-title-disable {
     background-color:rgb(170,170,170);
     color:var(--bg-color);
+    font-family: var(--default-font);
+    font-size: var(--default-size);
 }
 /*only for gulim*/
 #font-disable {
@@ -478,8 +482,6 @@
 
 #top-bar {
     width:100vw;
-    padding-top:1px;
-    padding-bottom:1px;
     position: fixed;
     background-color:var(--bg-color);
     top:0px;
@@ -494,8 +496,8 @@
     display:block;
     width:min(1400px,100vw);
     color:var(--text-color);
-    font-family: var(--default-font);
-    font-size: var(--default-size);
+    font-family: "HBIOS-SYS";
+    font-size: 16px;
 
 }
 
@@ -507,8 +509,6 @@
 
 #bottom-bar {
     
-    padding-top:1px;
-    padding-bottom:1px;
     width:100vw;
     height:18px;
     position: fixed;
@@ -531,8 +531,8 @@
     left:0;
     text-align:left;
     color:white;
-    font-family: var(--default-font);
-    font-size: var(--default-size);
+    font-family: "HBIOS-SYS";
+    font-size: 16px;
 
 }
 #bottom-text-right {
@@ -540,6 +540,6 @@
     right:20px;
     text-align:right;
     color:white;
-    font-family: var(--default-font);
-    font-size: var(--default-size);
+    font-family: "HBIOS-SYS";
+    font-size: 16px;
 }
