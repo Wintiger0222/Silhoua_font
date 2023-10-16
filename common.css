@@ -488,7 +488,15 @@
 }
 @font-face {
     font-family: Ramche;
-    src:url(./web_rendering/Ramche.otf) format('opentype');
+    src:url(./web_rendering/Ramche.ttf) format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      -webkit-font-smoothing : none;
+      font-smooth: never;
+}
+@font-face {
+    font-family: exqt;
+    src:url(./web_rendering/exqt.ttf) format('truetype');
       font-weight: normal;
       font-style: normal;
 }
