@@ -1,6 +1,8 @@
 
 @import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
 @import url("https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css");
+@import url("https://r2.fontsource.org/css/unifont@latest/index.css");
+
 @font-face {
     font-family: WinKor;
     font-weight: 400;
@@ -52,6 +54,8 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
 }
 @font-face {
     font-family: 'DOSMyungjo';
@@ -477,8 +481,6 @@
       font-weight: normal;
       font-style: normal;
 }
-
-
 
 
 
