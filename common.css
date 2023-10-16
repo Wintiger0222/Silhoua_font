@@ -500,6 +500,86 @@
       font-weight: normal;
       font-style: normal;
 }
+@font-face {
+    font-family: 소야바른9;
+    src:url(./web_rendering/soya/SoyaBarun9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야벗9;
+    src:url(./web_rendering/soya/SoyaBeot9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야다듬9;
+    src:url(./web_rendering/soya/SoyaDadeum9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야얼음10;
+    src:url(./web_rendering/soya/SoyaEoreum10.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야곧은10;
+    src:url(./web_rendering/soya/SoyaGodeun10.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야꼬마9;
+    src:url(./web_rendering/soya/SoyaKkoma9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야날림9;
+    src:url(./web_rendering/soya/SoyaNallim9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야나눔9;
+    src:url(./web_rendering/soya/SoyaNanum9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야논8;
+    src:url(./web_rendering/soya/SoyaNon8.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야솔9;
+    src:url(./web_rendering/soya/SoyaSol9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야쌀9;
+    src:url(./web_rendering/soya/SoyaSsal9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야뜰9;
+    src:url(./web_rendering/soya/SoyaTteul9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: 소야영수9;
+    src:url(./web_rendering/soya/SoyaYeongsu9.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+}
+
+
 
 
 
