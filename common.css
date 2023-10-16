@@ -502,7 +502,10 @@ td {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
+   }
+tr{
+  line-height: 1;
+}
 
 ::selection {
     background-color:var(--text-color);
