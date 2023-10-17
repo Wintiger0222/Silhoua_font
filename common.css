@@ -474,12 +474,74 @@
 
 
 
-@font-face {
-  font-family: "ad24.eng";
-  src:url(./HITEL/output/ad24.eng.woff2) format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: ad24;src:url(./HITEL/eng_woff/ad24.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: ad24_10;src:url(./HITEL/eng_woff/ad24_10.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: ascx;src:url(./HITEL/eng_woff/ascx.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: ascy;src:url(./HITEL/eng_woff/ascy.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: ativga;src:url(./HITEL/eng_woff/ativga.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: big;src:url(./HITEL/eng_woff/big.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: bold;src:url(./HITEL/eng_woff/bold.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: boldnr;src:url(./HITEL/eng_woff/boldnr.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: byte;src:url(./HITEL/eng_woff/byte.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: byte10;src:url(./HITEL/eng_woff/byte10.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: count;src:url(./HITEL/eng_woff/count.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e1;src:url(./HITEL/eng_woff/e1.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e2;src:url(./HITEL/eng_woff/e2.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e3;src:url(./HITEL/eng_woff/e3.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e4_2;src:url(./HITEL/eng_woff/e4_2.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e4_3;src:url(./HITEL/eng_woff/e4_3.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e5;src:url(./HITEL/eng_woff/e5.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e6;src:url(./HITEL/eng_woff/e6.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: e8;src:url(./HITEL/eng_woff/e8.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: eagleii;src:url(./HITEL/eng_woff/eagleii.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: eart;src:url(./HITEL/eng_woff/eart.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: eart10;src:url(./HITEL/eng_woff/eart10.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: egood;src:url(./HITEL/eng_woff/egood.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: eprcs;src:url(./HITEL/eng_woff/eprcs.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: flow;src:url(./HITEL/eng_woff/flow.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: flow10;src:url(./HITEL/eng_woff/flow10.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hanitl;src:url(./HITEL/eng_woff/hanitl.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hansc;src:url(./HITEL/eng_woff/hansc.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hansc2;src:url(./HITEL/eng_woff/hansc2.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hansc2t;src:url(./HITEL/eng_woff/hansc2t.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hm_y;src:url(./HITEL/eng_woff/hm_y.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmcount;src:url(./HITEL/eng_woff/hmcount.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmdef;src:url(./HITEL/eng_woff/hmdef.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmmcr;src:url(./HITEL/eng_woff/hmmcr.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmmcr_y;src:url(./HITEL/eng_woff/hmmcr_y.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmscr;src:url(./HITEL/eng_woff/hmscr.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmstd1;src:url(./HITEL/eng_woff/hmstd1.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmstd1y;src:url(./HITEL/eng_woff/hmstd1y.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: hmstd2;src:url(./HITEL/eng_woff/hmstd2.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: inbold;src:url(./HITEL/eng_woff/inbold.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: iygggo;src:url(./HITEL/eng_woff/iygggo.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: iygjrom;src:url(./HITEL/eng_woff/iygjrom.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: little;src:url(./HITEL/eng_woff/little.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: middle;src:url(./HITEL/eng_woff/middle.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: mini;src:url(./HITEL/eng_woff/mini.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: mini1;src:url(./HITEL/eng_woff/mini1.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: mrol;src:url(./HITEL/eng_woff/mrol.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: normal;src:url(./HITEL/eng_woff/normal.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: oak;src:url(./HITEL/eng_woff/oak.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: robo;src:url(./HITEL/eng_woff/robo.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: robo00;src:url(./HITEL/eng_woff/robo00.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: roman_l;src:url(./HITEL/eng_woff/roman_l.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: ronr00;src:url(./HITEL/eng_woff/ronr00.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: roth00;src:url(./HITEL/eng_woff/roth00.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: royal;src:url(./HITEL/eng_woff/royal.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: san;src:url(./HITEL/eng_woff/san.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: scr;src:url(./HITEL/eng_woff/scr.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: scrbold;src:url(./HITEL/eng_woff/scrbold.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: semirom;src:url(./HITEL/eng_woff/semirom.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: slant;src:url(./HITEL/eng_woff/slant.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: small;src:url(./HITEL/eng_woff/small.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: sys;src:url(./HITEL/eng_woff/sys.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: trident;src:url(./HITEL/eng_woff/trident.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: tsenghi;src:url(./HITEL/eng_woff/tsenghi.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: utopia;src:url(./HITEL/eng_woff/utopia.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: xsmall;src:url(./HITEL/eng_woff/xsmall.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: zeo;src:url(./HITEL/eng_woff/zeo.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: zorro;src:url(./HITEL/eng_woff/zorro.woff2) format('woff2');font-weight: normal;font-style: normal;}
 
 
 
