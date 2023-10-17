@@ -680,8 +680,11 @@
 
 /*******************CSS Part*******************/
 :root {
-    --bg-color: rgb(0,84,170);
-    --text-color: white;
+    /*--bg-color: rgb(0,84,170);*/
+    --bg-color: white;
+    --text-color: black;
+    /*--notice-color:yellow;*/
+    --notice-color:blue;
     --default-font: "MiraeroNormal";
     --default-size: 24px;
 }
@@ -734,11 +737,12 @@ a{
 }
 a:link,
 a:visited {
-    color : yellow;
+    color : var(--notice-color);
 }
 a:hover {
   color : var(--bg-color);
-  background-color:yellow;
+  background-color:var(--notice-color);
+  background-color:blue;
 }
 a:active {
     color : var(--bg-color);
