@@ -66,14 +66,19 @@ start = 0
 width = 16
 height = width
 
+font_name = HAN_FONT
+if font_name == '!':
+    font_name=ASCII_FONT
 
-outFile = open(HAN_FONT.split("\\")[-1].replace(("."+HAN_FONT.split('.')[-1]),'.json'),'w',encoding='utf-8')
+font_name = font_name.split("\\")[-1].split(".")[0]
+
+outFile = open("output\\"+font_name+".json",'w',encoding='utf-8')
 
 printf("{")
 printf("	\"version\": 1,\n")
 printf("	\"attr\": {")
-printf("		\"name\": \""+HAN_FONT.split("\\")[-1]+"\",\n")
-printf("		\"psname\": \""+HAN_FONT.split("\\")[-1]+"\",\n")
+printf("		\"name\": \""+font_name+"\",\n")
+printf("		\"psname\": \""+font_name+"\",\n")
 printf("		\"style\": \"regular\",\n")
 printf("		\"author\": \"Taeyun An (WindowsTiger)\",\n")
 printf("		\"licence\": \"SIL Open Font License 1.1\",\n")
