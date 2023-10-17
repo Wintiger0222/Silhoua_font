@@ -163,8 +163,8 @@
       font-style: normal;
 }
 @font-face {
-    font-family: SAN달리;
-    src:url(./HUSan/kor/SANDalli.woff2) format('woff2');
+    font-family: SAN달리;/*SAN달리만듦으로 변경*/
+    src:url(./HUSan/kor/SANDallimandeum.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
@@ -241,8 +241,8 @@
       font-style: normal;
 }
 @font-face {
-    font-family: SAN한메가는체;
-    src:url(./HUSan/kor/SANHanmeGaneunche.woff2) format('woff2');
+    font-family: SAN한메가는체;/*가는본문체로 변경*/
+    src:url(./HUSan/kor/SANHanmeGaneunbonmunche.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
@@ -349,20 +349,20 @@
       font-style: normal;
 }
 @font-face {
-    font-family: SAN판본체;
-    src:url(./HUSan/kor/SANPanbonche.woff2) format('woff2');
+    font-family: SAN판본체;/*신판본으로 변경*/
+    src:url(./HUSan/kor/SANSinpPanbonche.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
 @font-face {
-    font-family: SAN판본체2;
-    src:url(./HUSan/kor/SANPanbonche2.woff2) format('woff2');
+    font-family: SAN판본체2;/*신판본으로 변경*/
+    src:url(./HUSan/kor/SANSinpPanbonche2.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
 @font-face {
-    font-family: SAN판본체3;
-    src:url(./HUSan/kor/SANPanbonche3.woff2) format('woff2');
+    font-family: SAN판본체3;/*신판본으로 변경*/
+    src:url(./HUSan/kor/SANSinpanbonche3.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
@@ -457,8 +457,8 @@
       font-style: normal;
 }
 @font-face {
-    font-family: SAN태백필기2;
-    src:url(./HUSan/kor/SANTaebaekPilgi2.woff2) format('woff2');
+    font-family: SAN태백필기2;/*태백필기체2 로변경*/
+    src:url(./HUSan/kor/SANTaebaekPilgiche2.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
