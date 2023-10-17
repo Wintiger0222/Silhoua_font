@@ -350,13 +350,13 @@
 }
 @font-face {
     font-family: SAN판본체;/*신판본으로 변경*/
-    src:url(./HUSan/kor/SANSinpPanbonche.woff2) format('woff2');
+    src:url(./HUSan/kor/SANSinpanbonche.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
 @font-face {
     font-family: SAN판본체2;/*신판본으로 변경*/
-    src:url(./HUSan/kor/SANSinpPanbonche2.woff2) format('woff2');
+    src:url(./HUSan/kor/SANSinpanbonche2.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
 }
