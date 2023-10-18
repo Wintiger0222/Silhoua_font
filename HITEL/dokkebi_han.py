@@ -71,13 +71,16 @@ if font_name == '!':
     font_name=ASCII_FONT
 
 font_name = font_name.split("\\")[-1].split(".")[0]
+font_name_kor = font_name
+if len(argv) == 6:
+    font_name_kor  = argv[5]
 
 outFile = open("output\\"+font_name+".json",'w',encoding='utf-8')
 
 printf("{")
 printf("	\"version\": 1,\n")
 printf("	\"attr\": {")
-printf("		\"name\": \""+font_name+"\",\n")
+printf("		\"name\": \""+font_name_kor+"\",\n")
 printf("		\"psname\": \""+font_name+"\",\n")
 printf("		\"style\": \"regular\",\n")
 printf("		\"author\": \"Taeyun An (WindowsTiger)\",\n")
