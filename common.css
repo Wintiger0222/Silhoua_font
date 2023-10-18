@@ -558,7 +558,6 @@
 
 
 
-
 @font-face {
     font-family: LanaPixel;
     src:url(./web_rendering/LanaPixel.ttf) format('truetype');
@@ -832,7 +831,7 @@ body{
     position:absolute;
     left:0;
     text-align:left;
-    color:white;
+    color:var(--text-color);
     font-family: "HBIOS-SYS";
     font-size: 16px;
 
@@ -841,7 +840,7 @@ body{
     position:absolute;
     right:20px;
     text-align:right;
-    color:white;
+    color:var(--text-color);
     font-family: "HBIOS-SYS";
     font-size: 16px;
 }
