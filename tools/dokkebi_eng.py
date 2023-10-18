@@ -20,7 +20,7 @@ height = 16
 if len(argv) > 2:
     height = int(argv[3])
 
-mode = 1
+mode = 0
 
 fp = open(file , 'rb')
 fp.seek(start)
