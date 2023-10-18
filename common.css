@@ -264,6 +264,19 @@
 
 
 
+@font-face { font-family: 강산특문;src:url(./HITEL/ksg_woff/sys_san.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 이야기특문;src:url(./HITEL/ksg_woff/sys_iyg.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 한메특문;src:url(./HITEL/ksg_woff/sys_hm.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 윤특문;src:url(./HITEL/ksg_woff/sys_yun.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 사임당특문;src:url(./HITEL/ksg_woff/sys_smd.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 로만큰특문;src:url(./HITEL/ksg_woff/sys_rol.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 로만특문;src:url(./HITEL/ksg_woff/sys_roman.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 로만클특문;src:url(./HITEL/ksg_woff/sys_roc.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: 세리페특문;src:url(./HITEL/ksg_woff/sys_seri.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+
+
+
+
 
 
 
@@ -272,6 +285,8 @@
 @font-face { font-family: ad24_10;src:url(./HITEL/eng_woff/ad24_10.woff2) format('woff2');font-weight: normal;font-style: normal;
       font-display: block;}
 @font-face { font-family: ascx;src:url(./HITEL/eng_woff/ascx.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: ascxx;src:url(./HITEL/eng_woff/ascxx.woff2) format('woff2');font-weight: normal;font-style: normal;
       font-display: block;}
 @font-face { font-family: ascy;src:url(./HITEL/eng_woff/ascy.woff2) format('woff2');font-weight: normal;font-style: normal;
       font-display: block;}
