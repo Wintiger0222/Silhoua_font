@@ -1,16 +1,119 @@
 
-@import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');
-@import url("https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css");
+/*@import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');*/
+/*@import url("https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css");*/
 @import url("https://r2.fontsource.org/css/unifont@latest/index.css");
+
+@font-face {
+  font-family: HBIOS-SYS;
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('HBIOS-SYS'),
+       url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/HBIOS-SYS.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/HBIOS-SYS.ttf') format('truetype');
+}
+@font-face {
+  font-family: Galmuri14;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('Galmuri14 Regular'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri14.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri14.ttf') format('truetype');
+}
+@font-face {
+  font-family: Galmuri11;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('Galmuri11 Regular'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri11.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri11.ttf') format('truetype');
+}
+@font-face {
+  font-family: Galmuri11;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  font-display: block;
+  src: local('Galmuri11 Bold'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri11-Bold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri11-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: Galmuri11;
+  font-style: normal;
+  font-stretch: condensed;
+  font-weight: 400;
+  font-display: block;
+  src: local('Galmuri11 Condensed'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri11-Condensed.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri11-Condensed.ttf') format('truetype');
+}
+@font-face {
+  font-family: Galmuri9;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('Galmuri9 Regular'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri9.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri9.ttf') format('truetype');
+}
+@font-face {
+  font-family: Galmuri7;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('Galmuri7 Regular'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri7.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/Galmuri7.ttf') format('truetype');
+}
+@font-face {
+  font-family: GalmuriMono11;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('GalmuriMono11 Regular'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/GalmuriMono11.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/GalmuriMono11.ttf') format('truetype');
+}
+@font-face {
+  font-family: GalmuriMono9;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('GalmuriMono9 Regular'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/GalmuriMono9.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/GalmuriMono9.ttf') format('truetype');
+}
+@font-face {
+  font-family: GalmuriMono7;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('GalmuriMono7 Regular'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/GalmuriMono7.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/npm/galmuri/dist/GalmuriMono7.ttf') format('truetype');
+}
+
 
 @font-face {
     font-family: WinKor;
     font-weight: 400;
-    font-style: normal; 
+    font-style: normal;
+    font-display: block; 
     src: url('https://windos.quiple.dev//WinKor.woff2') format('woff2')
 }
 @font-face {
   font-family: dalmoori;
+  font-display: block;
   src: url('https://ranolp.github.io/dalmoori-font/latest-stable/dalmoori.woff2');
 }
 @font-face {
@@ -18,42 +121,50 @@
     src:url(./HUSinimun/HUSinimun.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
+      
 }
 @font-face {
     font-family: HU아현리MSX;
     src:url(./HUAhyunri/HUAhyunriMSX.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: HU아현리;
     src:url(./HUAhyunri/HUAhyunri.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: HU실루아;
     src:url(./HUSilhoua/HUSilhoua.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: HU태백고딕16;
     src:url(./HUTaebeak/HUTaebeakGothic16.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: HU애오개;
     src:url(./HUAeogae/HUAeogae.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'PFStardust';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
     font-smooth: never;
     -webkit-font-smoothing : none;
 }
@@ -62,72 +173,84 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'DOSSaemmul';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSSaemmul.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'DOSGothic';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'Sam3KRFont';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Sam3KRFont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'DOSIyagiMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSIyagiMedium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'DOSPilgiMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSPilgiMedium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'MiraeroNormal';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/MiraeroNormal.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'IyagiGGC';
     src: url('https://cdn.jsdelivr.net/gh/JuwanPark/IyagiGGC@latest/IyagiGGC.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'DungGeunMo';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'NeoDunggeunmo';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 'NeoDunggeunmoPro-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: MSX1;
     src: url('./web_rendering/MSX1-Korean-pre-alpha-0.0.1.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+      font-display: block;
 }
 
 
@@ -136,208 +259,408 @@
 
 
 
-@font-face { font-family: ad24;src:url(./HITEL/eng_woff/ad24.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: ad24_10;src:url(./HITEL/eng_woff/ad24_10.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: ascx;src:url(./HITEL/eng_woff/ascx.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: ascy;src:url(./HITEL/eng_woff/ascy.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: ativga;src:url(./HITEL/eng_woff/ativga.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: big;src:url(./HITEL/eng_woff/big.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: bold;src:url(./HITEL/eng_woff/bold.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: boldnr;src:url(./HITEL/eng_woff/boldnr.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: byte;src:url(./HITEL/eng_woff/byte.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: byte10;src:url(./HITEL/eng_woff/byte10.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: count;src:url(./HITEL/eng_woff/count.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e1;src:url(./HITEL/eng_woff/e1.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e2;src:url(./HITEL/eng_woff/e2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e3;src:url(./HITEL/eng_woff/e3.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e4_2;src:url(./HITEL/eng_woff/e4_2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e4_3;src:url(./HITEL/eng_woff/e4_3.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e5;src:url(./HITEL/eng_woff/e5.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e6;src:url(./HITEL/eng_woff/e6.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: e8;src:url(./HITEL/eng_woff/e8.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: eagleii;src:url(./HITEL/eng_woff/eagleii.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: eart;src:url(./HITEL/eng_woff/eart.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: eart10;src:url(./HITEL/eng_woff/eart10.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: egood;src:url(./HITEL/eng_woff/egood.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: eprcs;src:url(./HITEL/eng_woff/eprcs.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: flow;src:url(./HITEL/eng_woff/flow.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: flow10;src:url(./HITEL/eng_woff/flow10.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hanitl;src:url(./HITEL/eng_woff/hanitl.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hansc;src:url(./HITEL/eng_woff/hansc.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hansc2;src:url(./HITEL/eng_woff/hansc2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hansc2t;src:url(./HITEL/eng_woff/hansc2t.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hm_y;src:url(./HITEL/eng_woff/hm_y.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmcount;src:url(./HITEL/eng_woff/hmcount.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmdef;src:url(./HITEL/eng_woff/hmdef.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmmcr;src:url(./HITEL/eng_woff/hmmcr.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmmcr_y;src:url(./HITEL/eng_woff/hmmcr_y.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmscr;src:url(./HITEL/eng_woff/hmscr.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmstd1;src:url(./HITEL/eng_woff/hmstd1.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmstd1y;src:url(./HITEL/eng_woff/hmstd1y.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: hmstd2;src:url(./HITEL/eng_woff/hmstd2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: inbold;src:url(./HITEL/eng_woff/inbold.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: iygggo;src:url(./HITEL/eng_woff/iygggo.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: iygjrom;src:url(./HITEL/eng_woff/iygjrom.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: little;src:url(./HITEL/eng_woff/little.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: middle;src:url(./HITEL/eng_woff/middle.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: mini;src:url(./HITEL/eng_woff/mini.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: mini1;src:url(./HITEL/eng_woff/mini1.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: mrol;src:url(./HITEL/eng_woff/mrol.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: normal;src:url(./HITEL/eng_woff/normal.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: oak;src:url(./HITEL/eng_woff/oak.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: robo;src:url(./HITEL/eng_woff/robo.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: robo00;src:url(./HITEL/eng_woff/robo00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: roman_l;src:url(./HITEL/eng_woff/roman_l.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: ronr00;src:url(./HITEL/eng_woff/ronr00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: roth00;src:url(./HITEL/eng_woff/roth00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: royal;src:url(./HITEL/eng_woff/royal.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: san;src:url(./HITEL/eng_woff/san.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: scr;src:url(./HITEL/eng_woff/scr.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: scrbold;src:url(./HITEL/eng_woff/scrbold.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: semirom;src:url(./HITEL/eng_woff/semirom.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: slant;src:url(./HITEL/eng_woff/slant.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: small;src:url(./HITEL/eng_woff/small.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: sys;src:url(./HITEL/eng_woff/sys.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: trident;src:url(./HITEL/eng_woff/trident.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: tsenghi;src:url(./HITEL/eng_woff/tsenghi.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: utopia;src:url(./HITEL/eng_woff/utopia.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: xsmall;src:url(./HITEL/eng_woff/xsmall.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: zeo;src:url(./HITEL/eng_woff/zeo.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: zorro;src:url(./HITEL/eng_woff/zorro.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: ad24;src:url(./HITEL/eng_woff/ad24.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: ad24_10;src:url(./HITEL/eng_woff/ad24_10.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: ascx;src:url(./HITEL/eng_woff/ascx.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: ascy;src:url(./HITEL/eng_woff/ascy.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: ativga;src:url(./HITEL/eng_woff/ativga.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: big;src:url(./HITEL/eng_woff/big.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: bold;src:url(./HITEL/eng_woff/bold.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: boldnr;src:url(./HITEL/eng_woff/boldnr.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: byte;src:url(./HITEL/eng_woff/byte.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: byte10;src:url(./HITEL/eng_woff/byte10.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: count;src:url(./HITEL/eng_woff/count.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e1;src:url(./HITEL/eng_woff/e1.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e2;src:url(./HITEL/eng_woff/e2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e3;src:url(./HITEL/eng_woff/e3.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e4_2;src:url(./HITEL/eng_woff/e4_2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e4_3;src:url(./HITEL/eng_woff/e4_3.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e5;src:url(./HITEL/eng_woff/e5.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e6;src:url(./HITEL/eng_woff/e6.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: e8;src:url(./HITEL/eng_woff/e8.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: eagleii;src:url(./HITEL/eng_woff/eagleii.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: eart;src:url(./HITEL/eng_woff/eart.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: eart10;src:url(./HITEL/eng_woff/eart10.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: egood;src:url(./HITEL/eng_woff/egood.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: eprcs;src:url(./HITEL/eng_woff/eprcs.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: flow;src:url(./HITEL/eng_woff/flow.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: flow10;src:url(./HITEL/eng_woff/flow10.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hanitl;src:url(./HITEL/eng_woff/hanitl.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hansc;src:url(./HITEL/eng_woff/hansc.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hansc2;src:url(./HITEL/eng_woff/hansc2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hansc2t;src:url(./HITEL/eng_woff/hansc2t.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hm_y;src:url(./HITEL/eng_woff/hm_y.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmcount;src:url(./HITEL/eng_woff/hmcount.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmdef;src:url(./HITEL/eng_woff/hmdef.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmmcr;src:url(./HITEL/eng_woff/hmmcr.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmmcr_y;src:url(./HITEL/eng_woff/hmmcr_y.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmscr;src:url(./HITEL/eng_woff/hmscr.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmstd1;src:url(./HITEL/eng_woff/hmstd1.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmstd1y;src:url(./HITEL/eng_woff/hmstd1y.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: hmstd2;src:url(./HITEL/eng_woff/hmstd2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: inbold;src:url(./HITEL/eng_woff/inbold.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: iygggo;src:url(./HITEL/eng_woff/iygggo.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: iygjrom;src:url(./HITEL/eng_woff/iygjrom.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: little;src:url(./HITEL/eng_woff/little.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: middle;src:url(./HITEL/eng_woff/middle.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: mini;src:url(./HITEL/eng_woff/mini.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: mini1;src:url(./HITEL/eng_woff/mini1.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: mrol;src:url(./HITEL/eng_woff/mrol.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: normal;src:url(./HITEL/eng_woff/normal.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: oak;src:url(./HITEL/eng_woff/oak.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: robo;src:url(./HITEL/eng_woff/robo.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: robo00;src:url(./HITEL/eng_woff/robo00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: roman_l;src:url(./HITEL/eng_woff/roman_l.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: ronr00;src:url(./HITEL/eng_woff/ronr00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: roth00;src:url(./HITEL/eng_woff/roth00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: royal;src:url(./HITEL/eng_woff/royal.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: san;src:url(./HITEL/eng_woff/san.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: scr;src:url(./HITEL/eng_woff/scr.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: scrbold;src:url(./HITEL/eng_woff/scrbold.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: semirom;src:url(./HITEL/eng_woff/semirom.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: slant;src:url(./HITEL/eng_woff/slant.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: small;src:url(./HITEL/eng_woff/small.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: sys;src:url(./HITEL/eng_woff/sys.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: trident;src:url(./HITEL/eng_woff/trident.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: tsenghi;src:url(./HITEL/eng_woff/tsenghi.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: utopia;src:url(./HITEL/eng_woff/utopia.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: xsmall;src:url(./HITEL/eng_woff/xsmall.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: zeo;src:url(./HITEL/eng_woff/zeo.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: zorro;src:url(./HITEL/eng_woff/zorro.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
 
 
-@font-face { font-family: 굵은장식고딕체;src:url(./HITEL/han_woff/GMBO00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 가는장식고딕체;src:url(./HITEL/han_woff/GMTH00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 굵은고딕체;src:url(./HITEL/han_woff/GOBO00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 굵은둥근고딕체;src:url(./HITEL/han_woff/GOBO03.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 가는고딕체;src:url(./HITEL/han_woff/GOTH00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 반명조체;src:url(./HITEL/han_woff/MYNR00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 보통체;src:url(./HITEL/han_woff/NORMAL.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 굵은샘물체;src:url(./HITEL/han_woff/SABO00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 가는샘물체;src:url(./HITEL/han_woff/SATH00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이병도사과체;src:url(./HITEL/han_woff/APPLE00.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 강명조체;src:url(./HITEL/han_woff/PED.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 청개구리체;src:url(./HITEL/han_woff/HANFROG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 키다리체;src:url(./HITEL/han_woff/HANKDR.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 수줍음체;src:url(./HITEL/han_woff/HANSHY.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 빨래체;src:url(./HITEL/han_woff/HANHO.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 전서체;src:url(./HITEL/han_woff/HANJS1.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 흘림체;src:url(./HITEL/han_woff/HANCH.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 파도체;src:url(./HITEL/han_woff/HPADO.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 김영화체;src:url(./HITEL/han_woff/HANKYH.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 서기2400체;src:url(./HITEL/han_woff/AD24.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 달리만듦체;src:url(./HITEL/han_woff/DALLY.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 디나루체;src:url(./HITEL/han_woff/DINARU.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 명조체;src:url(./HITEL/han_woff/HAN.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 키작은체;src:url(./HITEL/han_woff/LOW.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 중간고딕체;src:url(./HITEL/han_woff/MIDDLE.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 중간고딕체2;src:url(./HITEL/han_woff/MIDDLE2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 꼬마체;src:url(./HITEL/han_woff/MINI.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 신판본체;src:url(./HITEL/han_woff/PANBON.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 신판본체2;src:url(./HITEL/han_woff/PANBON2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 신판본체3;src:url(./HITEL/han_woff/PANBON3.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 폴체;src:url(./HITEL/han_woff/PAUL.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 파울루스체;src:url(./HITEL/han_woff/PAULUS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: PC체;src:url(./HITEL/han_woff/PC.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 샘명조체;src:url(./HITEL/han_woff/SAMM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 스러짐체;src:url(./HITEL/han_woff/SLANT.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 기울임체;src:url(./HITEL/han_woff/SLEEP.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 기울임체2;src:url(./HITEL/han_woff/SLEEP2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 장식고딕체;src:url(./HITEL/han_woff/GAM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 손글씨체;src:url(./HITEL/han_woff/HANPL2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 필기체;src:url(./HITEL/han_woff/HANPL.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이야기굵은체2;src:url(./HITEL/han_woff/IYG2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이야기굵은체3;src:url(./HITEL/han_woff/IYG_Y.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 보통체2;src:url(./HITEL/han_woff/NORMAL2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 포항공대;src:url(./HITEL/han_woff/CSWP.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 부드러운;src:url(./HITEL/han_woff/HANSOFT.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 김인철체;src:url(./HITEL/han_woff/KIC.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 김인철체2;src:url(./HITEL/han_woff/KIC2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 굵은달꼴;src:url(./HITEL/han_woff/H01.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 가는달꼴;src:url(./HITEL/han_woff/H02.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 버금달꼴;src:url(./HITEL/han_woff/H03.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 둥근모꼴;src:url(./HITEL/han_woff/H04.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 짧은둥근모꼴;src:url(./HITEL/han_woff/H05.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 뫼꼴;src:url(./HITEL/han_woff/H06.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 짧은뫼꼴;src:url(./HITEL/han_woff/H07.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 중태세모꼴;src:url(./HITEL/han_woff/H08.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 뻗음꼴 ;src:url(./HITEL/han_woff/H09.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 짧은뻗음꼴;src:url(./HITEL/han_woff/H10.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 삐침꼴;src:url(./HITEL/han_woff/H11.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 작은삐침꼴;src:url(./HITEL/han_woff/H12.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 풀잎꼴;src:url(./HITEL/han_woff/H13.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 대나무꼴;src:url(./HITEL/han_woff/H14.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 포갬꼴;src:url(./HITEL/han_woff/H15.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 소라체;src:url(./HITEL/han_woff/HANSORA.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 도깨비디나루;src:url(./HITEL/han_woff/DKBDINA.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 도깨비디나루3;src:url(./HITEL/han_woff/HANKBC2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 도깨비디나루2;src:url(./HITEL/han_woff/HANKBC.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 도깨비고딕;src:url(./HITEL/han_woff/DKBGOTH.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 바람체;src:url(./HITEL/han_woff/HANSAM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 태백필기체2;src:url(./HITEL/han_woff/TBPIL2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한석봉체;src:url(./HITEL/han_woff/SANHSB.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 임꺽정체;src:url(./HITEL/han_woff/SANIGJ.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 강철체;src:url(./HITEL/han_woff/haniron.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 강철체1 ;src:url(./HITEL/han_woff/haniron1.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 강철체2;src:url(./HITEL/han_woff/haniron2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 삼보고딕체;src:url(./HITEL/han_woff/tggoth.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 서용원체;src:url(./HITEL/han_woff/A_FONT.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 그림체;src:url(./HITEL/han_woff/HANGRIM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 모란체;src:url(./HITEL/han_woff/HANMORAN.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 안샘체;src:url(./HITEL/han_woff/HANANSAM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 신동선디나루체;src:url(./HITEL/han_woff/HANDINA.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 신동선세나루체;src:url(./HITEL/han_woff/HANSENA.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 신선명조체;src:url(./HITEL/han_woff/HANSSMJ.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한글디자인체;src:url(./HITEL/han_woff/HANDG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한글궁서체;src:url(./HITEL/han_woff/HANGS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한글견샘물고딕체;src:url(./HITEL/han_woff/HANGSMGO.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한글명조체;src:url(./HITEL/han_woff/HANMY.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 가는샘물;src:url(./HITEL/han_woff/HANGNSM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 굵은샘물;src:url(./HITEL/han_woff/HANGSM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 큰새고딕체;src:url(./HITEL/han_woff/HANSG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 긴고딕체;src:url(./HITEL/han_woff/GG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 희망체;src:url(./HITEL/han_woff/HEEMANG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 소망체;src:url(./HITEL/han_woff/SOMANG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 사과체;src:url(./HITEL/han_woff/APPLE.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 굵은파도체;src:url(./HITEL/han_woff/PADO_B.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이병도흘림체;src:url(./HITEL/han_woff/SON3.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이야기굵은체;src:url(./HITEL/han_woff/IYG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이야기안상수체;src:url(./HITEL/han_woff/IYGASS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이야기삼벌식;src:url(./HITEL/han_woff/IYGSBS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 긴샘체;src:url(./HITEL/han_woff/HANGINSM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 궁서흘림체;src:url(./HITEL/han_woff/HANGHS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 이야기고딕체;src:url(./HITEL/han_woff/HIYGGD2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 가는가을한글체;src:url(./HITEL/han_woff/HPRCS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 영화체;src:url(./HITEL/han_woff/HANYH.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 가로수체;src:url(./HITEL/han_woff/HANGRS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 태백명조체개조;src:url(./HITEL/han_woff/TBG2.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 태백명조체;src:url(./HITEL/han_woff/TBG4.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 태백훈민정음체;src:url(./HITEL/han_woff/TBHM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 태백필기체;src:url(./HITEL/han_woff/TBPIL.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 복선명조체;src:url(./HITEL/han_woff/H_DMYONG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 소프트체;src:url(./HITEL/han_woff/H_SOFT.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 혜성체;src:url(./HITEL/han_woff/HANHCH.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 붓펜체;src:url(./HITEL/han_woff/HANHYES.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 어린이체;src:url(./HITEL/han_woff/HANCHD.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 탁체;src:url(./HITEL/han_woff/TAK.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한메고딕체;src:url(./HITEL/han_woff/HMGOTH.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한메샘물체;src:url(./HITEL/han_woff/HMSAM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한메본문체;src:url(./HITEL/han_woff/HMSYS.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한메가는본문체;src:url(./HITEL/han_woff/HMSYSTH.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 바이트체;src:url(./HITEL/han_woff/HANBYTE.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 둥근고딕체;src:url(./HITEL/han_woff/HANDGO.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 예쁜손글체;src:url(./HITEL/han_woff/HANEAPN.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 한궁체;src:url(./HITEL/han_woff/HANGUNG.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 흘림고딕체;src:url(./HITEL/han_woff/HANHLGO.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 허인구한메샘물체;src:url(./HITEL/han_woff/HANHMSM.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 정서체;src:url(./HITEL/han_woff/HANPW.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 바다체;src:url(./HITEL/han_woff/HANVADA.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 큰글고딕체;src:url(./HITEL/han_woff/HANBIGO.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 낙서체;src:url(./HITEL/han_woff/HANNAK.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 샘물이쁜체;src:url(./HITEL/han_woff/HANSPN.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 허인구안상수체;src:url(./HITEL/han_woff/HANAHN.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 샘물고딕체;src:url(./HITEL/han_woff/HANSMGO.woff2) format('woff2');font-weight: normal;font-style: normal;}
-@font-face { font-family: 손글이쁜체;src:url(./HITEL/han_woff/HANIPN.woff2) format('woff2');font-weight: normal;font-style: normal;}
+@font-face { font-family: 굵은장식고딕체;src:url(./HITEL/han_woff/GMBO00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 가는장식고딕체;src:url(./HITEL/han_woff/GMTH00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 굵은고딕체;src:url(./HITEL/han_woff/GOBO00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 굵은둥근고딕체;src:url(./HITEL/han_woff/GOBO03.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 가는고딕체;src:url(./HITEL/han_woff/GOTH00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 반명조체;src:url(./HITEL/han_woff/MYNR00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 보통체;src:url(./HITEL/han_woff/NORMAL.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 굵은샘물체;src:url(./HITEL/han_woff/SABO00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 가는샘물체;src:url(./HITEL/han_woff/SATH00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이병도사과체;src:url(./HITEL/han_woff/APPLE00.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 강명조체;src:url(./HITEL/han_woff/PED.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 청개구리체;src:url(./HITEL/han_woff/HANFROG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 키다리체;src:url(./HITEL/han_woff/HANKDR.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 수줍음체;src:url(./HITEL/han_woff/HANSHY.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 빨래체;src:url(./HITEL/han_woff/HANHO.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 전서체;src:url(./HITEL/han_woff/HANJS1.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 흘림체;src:url(./HITEL/han_woff/HANCH.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 파도체;src:url(./HITEL/han_woff/HPADO.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 김영화체;src:url(./HITEL/han_woff/HANKYH.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 서기2400체;src:url(./HITEL/han_woff/AD24.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 달리만듦체;src:url(./HITEL/han_woff/DALLY.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 디나루체;src:url(./HITEL/han_woff/DINARU.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 명조체;src:url(./HITEL/han_woff/HAN.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 키작은체;src:url(./HITEL/han_woff/LOW.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 중간고딕체;src:url(./HITEL/han_woff/MIDDLE.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 중간고딕체2;src:url(./HITEL/han_woff/MIDDLE2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 꼬마체;src:url(./HITEL/han_woff/MINI.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 신판본체;src:url(./HITEL/han_woff/PANBON.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 신판본체2;src:url(./HITEL/han_woff/PANBON2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 신판본체3;src:url(./HITEL/han_woff/PANBON3.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 폴체;src:url(./HITEL/han_woff/PAUL.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 파울루스체;src:url(./HITEL/han_woff/PAULUS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: PC체;src:url(./HITEL/han_woff/PC.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 샘명조체;src:url(./HITEL/han_woff/SAMM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 스러짐체;src:url(./HITEL/han_woff/SLANT.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 기울임체;src:url(./HITEL/han_woff/SLEEP.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 기울임체2;src:url(./HITEL/han_woff/SLEEP2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 장식고딕체;src:url(./HITEL/han_woff/GAM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 손글씨체;src:url(./HITEL/han_woff/HANPL2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 필기체;src:url(./HITEL/han_woff/HANPL.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이야기굵은체2;src:url(./HITEL/han_woff/IYG2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이야기굵은체3;src:url(./HITEL/han_woff/IYG_Y.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 보통체2;src:url(./HITEL/han_woff/NORMAL2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 포항공대;src:url(./HITEL/han_woff/CSWP.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 부드러운;src:url(./HITEL/han_woff/HANSOFT.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 김인철체;src:url(./HITEL/han_woff/KIC.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 김인철체2;src:url(./HITEL/han_woff/KIC2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 굵은달꼴;src:url(./HITEL/han_woff/H01.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 가는달꼴;src:url(./HITEL/han_woff/H02.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 버금달꼴;src:url(./HITEL/han_woff/H03.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 둥근모꼴;src:url(./HITEL/han_woff/H04.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 짧은둥근모꼴;src:url(./HITEL/han_woff/H05.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 뫼꼴;src:url(./HITEL/han_woff/H06.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 짧은뫼꼴;src:url(./HITEL/han_woff/H07.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 중태세모꼴;src:url(./HITEL/han_woff/H08.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 뻗음꼴 ;src:url(./HITEL/han_woff/H09.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 짧은뻗음꼴;src:url(./HITEL/han_woff/H10.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 삐침꼴;src:url(./HITEL/han_woff/H11.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 작은삐침꼴;src:url(./HITEL/han_woff/H12.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 풀잎꼴;src:url(./HITEL/han_woff/H13.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 대나무꼴;src:url(./HITEL/han_woff/H14.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 포갬꼴;src:url(./HITEL/han_woff/H15.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 소라체;src:url(./HITEL/han_woff/HANSORA.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 도깨비디나루;src:url(./HITEL/han_woff/DKBDINA.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 도깨비디나루3;src:url(./HITEL/han_woff/HANKBC2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 도깨비디나루2;src:url(./HITEL/han_woff/HANKBC.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 도깨비고딕;src:url(./HITEL/han_woff/DKBGOTH.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 바람체;src:url(./HITEL/han_woff/HANSAM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 태백필기체2;src:url(./HITEL/han_woff/TBPIL2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한석봉체;src:url(./HITEL/han_woff/SANHSB.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 임꺽정체;src:url(./HITEL/han_woff/SANIGJ.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 강철체;src:url(./HITEL/han_woff/haniron.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 강철체1 ;src:url(./HITEL/han_woff/haniron1.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 강철체2;src:url(./HITEL/han_woff/haniron2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 삼보고딕체;src:url(./HITEL/han_woff/tggoth.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 서용원체;src:url(./HITEL/han_woff/A_FONT.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 그림체;src:url(./HITEL/han_woff/HANGRIM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 모란체;src:url(./HITEL/han_woff/HANMORAN.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 안샘체;src:url(./HITEL/han_woff/HANANSAM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 신동선디나루체;src:url(./HITEL/han_woff/HANDINA.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 신동선세나루체;src:url(./HITEL/han_woff/HANSENA.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 신선명조체;src:url(./HITEL/han_woff/HANSSMJ.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한글디자인체;src:url(./HITEL/han_woff/HANDG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한글궁서체;src:url(./HITEL/han_woff/HANGS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한글견샘물고딕체;src:url(./HITEL/han_woff/HANGSMGO.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한글명조체;src:url(./HITEL/han_woff/HANMY.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 가는샘물;src:url(./HITEL/han_woff/HANGNSM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 굵은샘물;src:url(./HITEL/han_woff/HANGSM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 큰새고딕체;src:url(./HITEL/han_woff/HANSG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 긴고딕체;src:url(./HITEL/han_woff/GG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 희망체;src:url(./HITEL/han_woff/HEEMANG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 소망체;src:url(./HITEL/han_woff/SOMANG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 사과체;src:url(./HITEL/han_woff/APPLE.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 굵은파도체;src:url(./HITEL/han_woff/PADO_B.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이병도흘림체;src:url(./HITEL/han_woff/SON3.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이야기굵은체;src:url(./HITEL/han_woff/IYG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이야기안상수체;src:url(./HITEL/han_woff/IYGASS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이야기삼벌식;src:url(./HITEL/han_woff/IYGSBS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 긴샘체;src:url(./HITEL/han_woff/HANGINSM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 궁서흘림체;src:url(./HITEL/han_woff/HANGHS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 이야기고딕체;src:url(./HITEL/han_woff/HIYGGD2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 가는가을한글체;src:url(./HITEL/han_woff/HPRCS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 영화체;src:url(./HITEL/han_woff/HANYH.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 가로수체;src:url(./HITEL/han_woff/HANGRS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 태백명조체개조;src:url(./HITEL/han_woff/TBG2.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 태백명조체;src:url(./HITEL/han_woff/TBG4.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 태백훈민정음체;src:url(./HITEL/han_woff/TBHM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 태백필기체;src:url(./HITEL/han_woff/TBPIL.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 복선명조체;src:url(./HITEL/han_woff/H_DMYONG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 소프트체;src:url(./HITEL/han_woff/H_SOFT.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 혜성체;src:url(./HITEL/han_woff/HANHCH.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 붓펜체;src:url(./HITEL/han_woff/HANHYES.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 어린이체;src:url(./HITEL/han_woff/HANCHD.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 탁체;src:url(./HITEL/han_woff/TAK.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한메고딕체;src:url(./HITEL/han_woff/HMGOTH.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한메샘물체;src:url(./HITEL/han_woff/HMSAM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한메본문체;src:url(./HITEL/han_woff/HMSYS.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한메가는본문체;src:url(./HITEL/han_woff/HMSYSTH.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 바이트체;src:url(./HITEL/han_woff/HANBYTE.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 둥근고딕체;src:url(./HITEL/han_woff/HANDGO.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 예쁜손글체;src:url(./HITEL/han_woff/HANEAPN.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 한궁체;src:url(./HITEL/han_woff/HANGUNG.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 흘림고딕체;src:url(./HITEL/han_woff/HANHLGO.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 허인구한메샘물체;src:url(./HITEL/han_woff/HANHMSM.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 정서체;src:url(./HITEL/han_woff/HANPW.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 바다체;src:url(./HITEL/han_woff/HANVADA.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 큰글고딕체;src:url(./HITEL/han_woff/HANBIGO.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 낙서체;src:url(./HITEL/han_woff/HANNAK.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 샘물이쁜체;src:url(./HITEL/han_woff/HANSPN.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 허인구안상수체;src:url(./HITEL/han_woff/HANAHN.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 샘물고딕체;src:url(./HITEL/han_woff/HANSMGO.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
+@font-face { font-family: 손글이쁜체;src:url(./HITEL/han_woff/HANIPN.woff2) format('woff2');font-weight: normal;font-style: normal;
+      font-display: block;}
 
 
 
@@ -357,24 +680,28 @@
     src:url(./web_rendering/LanaPixel.ttf) format('truetype');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 픽셀로보로보체;
     src:url(./web_rendering/pixelroborobo.otf) format('opentype');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: Silver;
     src:url(./web_rendering/Silver.ttf) format('truetype');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: Ramche;
     src:url(./web_rendering/Ramche.ttf) format('truetype');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
       -webkit-font-smoothing : none;
       font-smooth: never;
 }
@@ -383,84 +710,98 @@
     src:url(./web_rendering/exqt.ttf) format('truetype');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야바른9;
     src:url(./web_rendering/soya/SoyaBarun9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야벗9;
     src:url(./web_rendering/soya/SoyaBeot9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야다듬9;
     src:url(./web_rendering/soya/SoyaDadeum9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야얼음10;
     src:url(./web_rendering/soya/SoyaEoreum10.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야곧은10;
     src:url(./web_rendering/soya/SoyaGodeun10.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야꼬마9;
     src:url(./web_rendering/soya/SoyaKkoma9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야날림9;
     src:url(./web_rendering/soya/SoyaNallim9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야나눔9;
     src:url(./web_rendering/soya/SoyaNanum9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야논8;
     src:url(./web_rendering/soya/SoyaNon8.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야솔9;
     src:url(./web_rendering/soya/SoyaSol9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야쌀9;
     src:url(./web_rendering/soya/SoyaSsal9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야뜰9;
     src:url(./web_rendering/soya/SoyaTteul9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 @font-face {
     font-family: 소야영수9;
     src:url(./web_rendering/soya/SoyaYeongsu9.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
+      font-display: block;
 }
 
 
