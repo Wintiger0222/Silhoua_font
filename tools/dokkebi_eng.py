@@ -4,7 +4,7 @@ import math
 PUA_start=57344
 
 def printf(temp):
-    print(temp, end="")
+    # print(temp, end="")
     outFile.write(temp)
 
 
@@ -25,7 +25,7 @@ mode = 1
 fp = open(file , 'rb')
 fp.seek(start)
 
-outFile = open(file.replace(()"."+file.split('.')[-1]),'.json'),'w',encoding='utf-8')
+outFile = open(file.replace(("."+file.split('.')[-1]),'.json'),'w',encoding='utf-8')
 
 for i in range(len(CP437_list)):
     printf("\t\t{\n")

@@ -108,7 +108,7 @@ if ASCII_FONT != "!":
 
     for i in range(len(CP437_list)):
         printf("\t\t{\n")
-        if (i<0x20 or i>0x7f):
+        if (i<0x20 or i>0x7f) and KSG_FONT != "!":
             printf("\t\t\t\"unicode\": " + str(0xF800+i) + ",\n")
         else:
             printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
