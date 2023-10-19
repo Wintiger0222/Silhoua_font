@@ -939,6 +939,10 @@ a:active {
 html, body, main {
 	height : 100vh;
 	width : 100wh;
+  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+  -ms-text-size-adjust : none;  /* IE */
+  -moz-text-size-adjust : none;  /* 파이어폭스 */
+  -o-text-size-adjust : none;  /* 오페라 구버전 */
 }
 
 body{
