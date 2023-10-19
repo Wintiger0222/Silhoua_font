@@ -705,8 +705,18 @@
 
 
 
-
-
+@font-face{
+  font-family:'bitbit';
+  src:url('https://cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2'),
+  url('https://cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff');
+  font-display: block;
+}
+@font-face{
+  font-family:'DNFBitBitv2';
+  font-style:normal;font-weight:400;
+  src:url('https://cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf')format('opentype');
+  font-display: block;
+}
 
 
 
