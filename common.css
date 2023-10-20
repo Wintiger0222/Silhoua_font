@@ -861,6 +861,7 @@
 
 
 
+
 /*******************CSS Part*******************/
 :root {
     /*--bg-color: rgb(0,84,170);*/
@@ -869,6 +870,7 @@
     --disable-text-color: rgb(100,100,100);
     /*--notice-color:yellow;*/
     --notice-color:blue;
+    --caution-color:red;
     --default-font: "MiraeroNormal";
     --default-size: 24px;
 
