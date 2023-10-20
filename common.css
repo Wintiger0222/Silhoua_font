@@ -878,6 +878,38 @@
     --scroll-bg-color: rgb(100,100,100);
 }
 
+html, body, main {
+	height : 100vh;
+	width : 100wh;
+  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+  -ms-text-size-adjust : none;  /* IE */
+  -moz-text-size-adjust : none;  /* 파이어폭스 */
+  -o-text-size-adjust : none;  /* 오페라 구버전 */
+  image-rendering: pixelated;
+}
+
+body{
+	overflow : hidden;
+    margin:0
+}
+
+a{
+  text-decoration-line:none;
+}
+a:link,
+a:visited {
+    color : var(--notice-color);
+}
+a:hover {
+  color : var(--bg-color);
+  background-color:var(--notice-color);
+  background-color:var(--notice-color);
+}
+a:active {
+    color : var(--bg-color);
+    background-color:var(--text-color);
+}
+
 table {
     table-layout: fixed;
     border-collapse: separate;
@@ -921,36 +953,7 @@ tr{
 #font-disable {
     color:var(--disable-text-color);
 }
-a{
-  text-decoration-line:none;
-}
-a:link,
-a:visited {
-    color : var(--notice-color);
-}
-a:hover {
-  color : var(--bg-color);
-  background-color:var(--notice-color);
-  background-color:var(--notice-color);
-}
-a:active {
-    color : var(--bg-color);
-    background-color:var(--text-color);
-}
 
-html, body, main {
-	height : 100vh;
-	width : 100wh;
-  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
-  -ms-text-size-adjust : none;  /* IE */
-  -moz-text-size-adjust : none;  /* 파이어폭스 */
-  -o-text-size-adjust : none;  /* 오페라 구버전 */
-}
-
-body{
-	overflow : hidden;
-    margin:0
-}
 
 #middle-box {
     margin: 0 auto;
