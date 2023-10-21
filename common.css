@@ -1011,7 +1011,16 @@ tr{
     color:var(--bg-color);
 
 }
-
+.hidden{
+      overflow: hidden;
+      border: 0;
+      width: 1px;
+      height: 1px;
+      clip: rect(1px, 1px, 1px, 1px);
+      /* 추가 */
+      clip-path: inset(50%);
+      display: inline-block;
+    }
 #bottom-bar {
     
     width:100vw;
