@@ -869,7 +869,8 @@
     --text-color: black;
     --disable-text-color: rgb(100,100,100);
     /*--notice-color:yellow;*/
-    --notice-color:blue;
+    --notice-color:teal;
+    --link-color:	blue;
     --caution-color:red;
     --default-font: "MiraeroNormal";
     --default-size: 24px;
@@ -898,12 +899,12 @@ a{
 }
 a:link,
 a:visited {
-    color : var(--notice-color);
+    color : var(--link-color);
 }
 a:hover {
   color : var(--bg-color);
-  background-color:var(--notice-color);
-  background-color:var(--notice-color);
+  background-color:var(--link-color);
+  background-color:var(--link-color);
 }
 a:active {
     color : var(--bg-color);
@@ -934,6 +935,10 @@ tr{
     background-color:var(--text-color);
     color:var(--bg-color);
 
+}
+
+.example-text{
+      filter: invert(13%)
 }
 
 #size-title {
