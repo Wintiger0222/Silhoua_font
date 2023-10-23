@@ -1,0 +1,5 @@
+전각 Extend ASCII 문자가 있으면 우선시할것
+반각 Ex ASCII는 F800으로
+전각 중복 Extend ASCII는 F700으로
+
+전각 Extend ASCII 문자는 F700 구간으로 CP437 코드에 맞춰 보낼것
