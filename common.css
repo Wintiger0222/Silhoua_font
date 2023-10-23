@@ -853,6 +853,7 @@
 
 
 
+
 /*******************CSS Part*******************/
 :root {
     /*--bg-color: rgb(0,84,170);*/
@@ -860,12 +861,46 @@
     --text-color: black;
     --disable-text-color: rgb(100,100,100);
     /*--notice-color:yellow;*/
-    --notice-color:blue;
+    --notice-color:teal;
+    --link-color:	blue;
+    --caution-color:red;
     --default-font: "MiraeroNormal";
     --default-size: 24px;
 
     /*--scroll-bg-color: rgb(104,180,255);*/
     --scroll-bg-color: rgb(100,100,100);
+}
+
+html, body, main {
+	height : 100vh;
+	width : 100wh;
+  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
+  -ms-text-size-adjust : none;  /* IE */
+  -moz-text-size-adjust : none;  /* 파이어폭스 */
+  -o-text-size-adjust : none;  /* 오페라 구버전 */
+  image-rendering: pixelated;
+}
+
+body{
+	overflow : hidden;
+    margin:0
+}
+
+a{
+  text-decoration-line:none;
+}
+a:link,
+a:visited {
+    color : var(--link-color);
+}
+a:hover {
+  color : var(--bg-color);
+  background-color:var(--link-color);
+  background-color:var(--link-color);
+}
+a:active {
+    color : var(--bg-color);
+    background-color:var(--text-color);
 }
 
 table {
@@ -894,6 +929,10 @@ tr{
 
 }
 
+.example-text{
+      filter: invert(13%)
+}
+
 #size-title {
     background-color:var(--text-color);
     color:var(--bg-color);
@@ -911,36 +950,7 @@ tr{
 #font-disable {
     color:var(--disable-text-color);
 }
-a{
-  text-decoration-line:none;
-}
-a:link,
-a:visited {
-    color : var(--notice-color);
-}
-a:hover {
-  color : var(--bg-color);
-  background-color:var(--notice-color);
-  background-color:var(--notice-color);
-}
-a:active {
-    color : var(--bg-color);
-    background-color:var(--text-color);
-}
 
-html, body, main {
-	height : 100vh;
-	width : 100wh;
-  -webkit-text-size-adjust : none;  /* 크롬, 사파리, 오페라 신버전 */
-  -ms-text-size-adjust : none;  /* IE */
-  -moz-text-size-adjust : none;  /* 파이어폭스 */
-  -o-text-size-adjust : none;  /* 오페라 구버전 */
-}
-
-body{
-	overflow : hidden;
-    margin:0
-}
 
 #middle-box {
     margin: 0 auto;
@@ -993,7 +1003,16 @@ body{
     color:var(--bg-color);
 
 }
-
+.hidden{
+      overflow: hidden;
+      border: 0;
+      width: 1px;
+      height: 1px;
+      clip: rect(1px, 1px, 1px, 1px);
+      /* 추가 */
+      clip-path: inset(50%);
+      display: inline-block;
+    }
 #bottom-bar {
     
     width:100vw;
