@@ -117,67 +117,59 @@
   src: url('https://ranolp.github.io/dalmoori-font/latest-stable/dalmoori.woff2');
 }
 @font-face {
-    font-family: HU신이문;
-    src:url(./HUSinimun/HUSinimun.woff2) format('woff2');
+    font-family: HE신이문;
+    src:url(./HESinimun/HESinimun.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
       
 }
 @font-face {
-    font-family: HU아현리MSX;
-    src:url(./HUAhyunri/HUAhyunriMSX.woff2) format('woff2');
+    font-family: HE아현리MSX;
+    src:url(./HEAhyunri/HEAhyunriMSX.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
 }
 @font-face {
-    font-family: HU아현리;
-    src:url(./HUAhyunri/HUAhyunri.woff2) format('woff2');
+    font-family: HE아현리;
+    src:url(./HEAhyunri/HEAhyunri.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
 }
 @font-face {
-    font-family: HU실루아;
-    src:url(./HUSilhoua/HUSilhoua.woff2) format('woff2');
+    font-family: HE실루아;
+    src:url(./HESilhoua/HESilhoua.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
 }
 @font-face {
-    font-family: HU태백고딕16;
-    src:url(./HUTaebeak/HUTaebeakGothic16.woff2) format('woff2');
+    font-family: HE태백고딕16;
+    src:url(./HETaebeak/HETaebeakGothic16.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
 }
 @font-face {
-    font-family: HU애오개;
-    src:url(./HUAeogae/HUAeogae.woff2) format('woff2');
+    font-family: HE애오개;
+    src:url(./HEAeogae/HEAeogae.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
 }
 @font-face {
-    font-family: HU둥근모꼴12;
-    src:url(./HUDunggeunmokkol/HUDunggeunmokkol12.woff2) format('woff2');
-      font-weight: normal;
-      font-style: normal;
-      font-display: block;
-      
-}
-@font-face {
-    font-family: HU둥근모꼴모노20;
-    src:url(./HUDunggeunmokkol/HUDunggeunmokkolMono20.woff2) format('woff2');
+    font-family: HE둥근모꼴12;
+    src:url(./HEDunggeunmokkol/HEDunggeunmokkol12.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
       
 }
 @font-face {
-    font-family: HU둥근모꼴20;
-    src:url(./HUDunggeunmokkol/HUDunggeunmokkol20.woff2) format('woff2');
+    font-family: HE둥근모꼴20;
+    src:url(./HEDunggeunmokkol/HEDunggeunmokkol20.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
