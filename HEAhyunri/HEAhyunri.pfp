@@ -14,9 +14,13 @@
 		"ascent": 16,
 		"offsetX": 0,
 		"lineGap": 0,
-		"maxWidth": 16
+		"maxWidth": 12
 	},
 	"glyphs": [
+		{
+			"unicode": 12288,
+			"advanceWidth":12
+		},
 		{
 			"name": ".notdef",
 			"unicode": 0,

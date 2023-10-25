@@ -128,3 +128,12 @@ for i in range(max_sybal):
     printf("\t\t\t]\n")
     printf("\t\t},\n")
 fp.close()
+
+#전각띄어쓰기 하드코딩
+printf("\t\t{\n")
+printf("\t\t\t\"unicode\": 12288,\n")
+        
+#data print   
+printf("\t\t\t\"advanceWidth\":16\n")
+printf("\t\t},\n")
+

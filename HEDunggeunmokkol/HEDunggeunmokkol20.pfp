@@ -18,6 +18,10 @@
 	},
 	"glyphs": [
 		{
+			"unicode": 12288,
+			"advanceWidth":20
+		},
+		{
 			"unicode": 32
 		},
 		{

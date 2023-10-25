@@ -132,6 +132,14 @@ if ASCII_FONT != "!":
         printf("\t\t},\n")
     fp.close()
 
+#전각띄어쓰기 하드코딩
+printf("\t\t{\n")
+printf("\t\t\t\"unicode\": 12288,\n")
+        
+#data print   
+printf("\t\t\t\"advanceWidth\":16\n")
+printf("\t\t},\n")
+
 # 한글조합
 if HAN_FONT != "!":
     for i in range(44032,57364):

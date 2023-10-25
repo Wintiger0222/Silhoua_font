@@ -18,6 +18,10 @@
 	},
 	"glyphs": [
 		{
+			"unicode": 12288,
+			"advanceWidth":16
+		},
+		{
 			"name": ".notdef",
 			"unicode": 0,
 			"data": [
