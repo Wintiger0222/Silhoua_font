@@ -9,6 +9,14 @@ KOR_FONT_LIST = [0x40000, 0x47180, 0x4E300, 0x55480, 0x5C600, 0x63780, 0x6A900, 
 ENG_FONT_LIST = [0x0, 0x1000, 0x2000, 0x3000, 0x4000, 0x5000, 0x6000, 0x7000]
 FONT_TYPE=1
 
+#명조체 -ROMAN
+#고딕체 -BOLD
+#보석체 -roman(작은 보석)
+#가는체 -Thin
+#필기체 -Hand
+#둥근체 -Italic;일치하지 않음
+#샘물체 -bold(작은볼드)
+#바람체 -WIND
 def printf(temp):
     # print(temp, end="")
     outFile.write(temp)
