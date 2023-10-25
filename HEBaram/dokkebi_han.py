@@ -8,6 +8,7 @@ PUA_start=57344
 KOR_FONT_LIST = [0x40000, 0x47180, 0x4E300, 0x55480, 0x5C600, 0x63780, 0x6A900, 0x71A80]
 ENG_FONT_LIST = [0x0, 0x1000, 0x2000, 0x3000, 0x4000, 0x5000, 0x6000, 0x7000]
 FONT_TYPE=1
+FONT_BBALE=0
 
 #명조체 -ROMAN
 #고딕체 -BOLD
@@ -40,7 +41,7 @@ def HangulTemplate(cho, jung, jong):
 
 
 
-    return [1 if jong == 0 else 0, jongTypes[jung]]
+    return [1 if (jong == 0 and FONT_BBALE != 1) else 0, jongTypes[jung]]
 
 
 def UTF2CJJ(code):
