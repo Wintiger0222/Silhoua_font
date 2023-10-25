@@ -7,8 +7,11 @@ PUA_start=57344
 
 KOR_FONT_LIST = [0x40000, 0x47180, 0x4E300, 0x55480, 0x5C600, 0x63780, 0x6A900, 0x71A80]
 ENG_FONT_LIST = [0x0, 0x1000, 0x2000, 0x3000, 0x4000, 0x5000, 0x6000, 0x7000]
-FONT_TYPE=1
-FONT_BBALE=0
+
+type_name = ["명조체", "고딕체", "보석체", "가는체", "필기체", "둥근체", "샘물체", "바람체"]
+bbale_name = ["네모", "빨래"]
+type_name_eng = ["Myeongjoche", "Godikche", "Boseokche", "Ganeunche", "Pilgiche", "Dunggeunche", "Saemmulche", "Baramche"]
+bbale_name_eng = ["Nemo", "Ppallae"]
 
 #명조체 -ROMAN
 #고딕체 -BOLD
@@ -74,11 +77,14 @@ print(chosung_len)
 print(jungsung_len)
 
 input_data  = argv[1]
+FONT_TYPE   = int(argv[2])
+FONT_BBALE  = int(argv[3])
+
 width = 16
 height = width
 
-font_name = "HEBaram"
-font_name_kor = "HE바람"
+font_name = "HEBaram"+bbale_name_eng[FONT_BBALE]+type_name_eng[FONT_TYPE]
+font_name_kor = "HE바람"+bbale_name[FONT_BBALE]+type_name[FONT_TYPE]
 
 
 outFile = open(font_name+".json",'w',encoding='utf-8')
@@ -351,7 +357,7 @@ for i in range(12593,12623):
     printf("\t\t{\n")
     printf("\t\t\t\"unicode\": " + str(i) + ",\n")
     printf("\t\t\t\"components\": [")
-    printf(str(jamo_list2[i-12593])+"],\n")
+    printf(str(jamo_list2[i-12593] - (0 if FONT_BBALE == 0 else 440))+"],\n")
     printf("\t\t\t\"advanceWidth\":16\n")
     printf("\t\t},\n")
 
@@ -360,7 +366,7 @@ for i in range(12623,12644):
     printf("\t\t{\n")
     printf("\t\t\t\"unicode\": " + str(i) + ",\n")
     printf("\t\t\t\"components\": [")
-    printf(str(moum_start+i-12623)+"],\n")
+    printf(str(moum_start+i-12623 - (0 if FONT_BBALE == 0 else 440))+"],\n")
     printf("\t\t\t\"advanceWidth\":16\n")
     printf("\t\t},\n")
 

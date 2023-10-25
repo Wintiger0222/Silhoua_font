@@ -692,7 +692,23 @@
       font-display: block;}
 @font-face { font-family: 손글이쁜체;src:url(./HITEL/han_woff/HANIPN.woff2) format('woff2');font-weight: normal;font-style: normal;
       font-display: block;}
-
+@font-face { font-family: HE바람네모바람체;src:url(./HEBaram/HEBaramNemoBaramche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람네모보석체;src:url(./HEBaram/HEBaramNemoBoseokche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람네모둥근체;src:url(./HEBaram/HEBaramNemoDunggeunche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람네모가는체;src:url(./HEBaram/HEBaramNemoGaneunche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람네모고딕체;src:url(./HEBaram/HEBaramNemoGodikche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람네모명조체;src:url(./HEBaram/HEBaramNemoMyeongjoche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람네모필기체;src:url(./HEBaram/HEBaramNemoPilgiche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람네모샘물체;src:url(./HEBaram/HEBaramNemoSaemmulche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래바람체;src:url(./HEBaram/HEBaramPpallaeBaramche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래보석체;src:url(./HEBaram/HEBaramPpallaeBoseokche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래둥근체;src:url(./HEBaram/HEBaramPpallaeDunggeunche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래가는체;src:url(./HEBaram/HEBaramPpallaeGaneunche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래고딕체;src:url(./HEBaram/HEBaramPpallaeGodikche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래명조체;src:url(./HEBaram/HEBaramPpallaeMyeongjoche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래필기체;src:url(./HEBaram/HEBaramPpallaePilgiche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+@font-face { font-family: HE바람빨래샘물체;src:url(./HEBaram/HEBaramPpallaeSaemmulche.woff2) format('woff2');font-weight: normal;font-style: normal;font-display: block;}
+      
 
 
 
