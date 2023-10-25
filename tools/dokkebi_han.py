@@ -70,7 +70,7 @@ if len(argv) > 3:
 outFile = open(file.replace(("."+file.split('.')[-1]),'.json'),'w',encoding='utf-8')
 
 
-for i in range(44032,55203):
+for i in range(44032,55204):
     printf("\t\t{\n")
     printf("\t\t\t\"unicode\": " + str(i) + ",\n")
     printf("\t\t\t\"components\": ")
