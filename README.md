@@ -33,5 +33,8 @@ bitmap korean font
 | F8E0 | α | ß | Γ | π | Σ | σ | µ | τ | Φ | Θ | Ω | δ | ∞ | φ | ε | ∩ |
 | F8F0 | ≡ | ± | ≥ | ≤ | ⌠ | ⌡ | ÷ | ≈ | ° | ∙ | · | √ | ⁿ | ² | ■ |   |
 
+## 조합식 분석
+[JOHAB.md](JOHAB.md)
+
 ## 기타
 [대우X2메뉴얼](https://archive.org/details/CPC400400S/page/n249/mode/2up)
