@@ -33,6 +33,5 @@ bitmap korean font
 | F8E0 | α | ß | Γ | π | Σ | σ | µ | τ | Φ | Θ | Ω | δ | ∞ | φ | ε | ∩ |
 | F8F0 | ≡ | ± | ≥ | ≤ | ⌠ | ⌡ | ÷ | ≈ | ° | ∙ | · | √ | ⁿ | ² | ■ |   |
 
-### 기타
-[벌식설명문서](https://blog.peremen.name/entry/%EC%A1%B0%ED%95%A9%ED%98%95-%EA%B8%80%EA%BC%B4%EC%9D%98-%EA%B8%B0%EC%88%A0-%EB%B6%84%EC%84%9D/)
+## 기타
 [대우X2메뉴얼](https://archive.org/details/CPC400400S/page/n249/mode/2up)
