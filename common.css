@@ -754,6 +754,13 @@
       font-display: block;
 }
 @font-face {
+    font-family: 투박도트;
+    src:url(./web_rendering/TubakDot.ttf) format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+}
+@font-face {
     font-family: Ramche;
     src:url(./web_rendering/Ramche.ttf) format('truetype');
       font-weight: normal;
