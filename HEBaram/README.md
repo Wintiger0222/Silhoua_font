@@ -102,8 +102,7 @@
 * <a name="footnote_5">5</a>: 삼보컴퓨터 구로고
 * <a name="footnote_6">6</a>: 현대전자 로고
 * <a name="footnote_7">7</a>: U+F089 켜진발광다이오드 / U+F08A 꺼진발광다이오드 
-* <a name="footnote_8">8</a>: 기울어진 필기체 전각숫자(비PUA영역)
-* <a name="footnote_9">9</a>: 정자체 전각숫자(비PUA영역)
+* <a name="footnote_8">8</a>: 지우개 그림글자
 
 
 ## 법적 사항
