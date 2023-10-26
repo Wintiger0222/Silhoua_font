@@ -1,5 +1,5 @@
 # HE아현리
-11x15 크기의 비트맵 폰트
+1987년 대우전자의 MSX2 컴퓨터, 아이큐2000의 11x15 크기의 한글 폰트 입니다.
 
 ## 폰트 지원범위
 * 한글11172자 + ASCII 영역을 지원합니다.
@@ -11,6 +11,14 @@
 ## 참조 폰트
 * 대우 아이큐2000 Hangul ROM 폰트
 
+## 다운로드 
+
+| 폰트이름 | 자형 | TTF |  WOFF2 |  BDF |
+| ------- | ---- | ---- | ---- | ---- |
+| HE아현리 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunri.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunri.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunri.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunri.bdf)    |
+| HE아현리MSX | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunriMSX.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunriMSX.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunriMSX.woff2)       | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAhyunri/HEAhyunriMSX.bdf)       |
+
+
 ## 법적 사항
 I do not claim any rights to the original raster binary data charsets, which this work is based on. Credit for these goes to their respective designers.
 
@@ -18,7 +26,7 @@ At least in the US and South Korea, the font file and code are copyrighted, but 
 
 나는 이 작업의 기반이 되는 원본 비트맵 폰트에 대한 어떠한 권리도 주장하지 않습니다. 이에 대한 공로는 해당 디자이너에게 돌아갑니다.
 
-적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 HE신이문의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
+적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 HE아현리의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
 
 ## 이 프로젝트의 라이센스
 Copyright © 2022 TaeYun An (WindowsTiger / 혜음우리말화연구소) (0xodbs02@naver.com), with reserved font name “HE아현리”, “HE아현리MSX”.

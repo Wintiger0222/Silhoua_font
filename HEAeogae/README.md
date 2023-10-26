@@ -1,4 +1,6 @@
 # HE애오개
+1989년 대우전자의 MSX2 컴퓨터, 대우 X-2의 한글폰트입니다.
+
 ## 폰트 지원범위
 * ASCII문자 + 한글11172자 + 한자 3219자 + KS 특수문자 일부 영역을 지원합니다.
 
@@ -33,6 +35,12 @@
 * <a name="footnote_8">8</a>: 기울어진 필기체 전각숫자(비PUA영역)
 * <a name="footnote_9">9</a>: 정자체 전각숫자(비PUA영역)
 
+## 다운로드
+
+| 폰트이름 | 자형 | TTF |  WOFF2 |  BDF |
+| ------- | ---- | ---- | ---- | ---- |
+| HE애오개 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEAeogae/HEAeogae.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAeogae/HEAeogae.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAeogae/HEAeogae.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEAeogae/HEAeogae.bdf)    |
+
 ## 법적 사항
 I do not claim any rights to the original raster binary data charsets, which this work is based on. Credit for these goes to their respective designers. Also 8,581 Hangul syllables glyphs are my pure creations.
 
@@ -40,7 +48,7 @@ At least in the US and South Korea, the font file and code are copyrighted, but 
 
 나는 이 작업의 기반이 되는 원본 비트맵 폰트에 대한 어떠한 권리도 주장하지 않습니다. 이에 대한 공로는 해당 디자이너에게 돌아갑니다. 또한 한글 8,581자의 글리프는 대우전자와 상관없는 저의 순수한 창작물입니다.
 
-적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 HE신이문의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
+적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 HE애오개의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
 
 ## 이 프로젝트의 라이센스
 Copyright © 2022 TaeYun An (WindowsTiger / 혜음우리말화연구소) (0xodbs02@naver.com), with reserved font name “HE애오개”.

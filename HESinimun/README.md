@@ -1,4 +1,5 @@
 # HE신이문
+삼성전자의 8비트 컴퓨터 SPC-1500의 한글폰트입니다.
 ## 폰트 지원범위
 * 확장ASCII + 한글11172자 영역을 지원합니다.
 
@@ -22,6 +23,12 @@
 | F8D0 | ╨ | ╤ | ╥ | ╙ | ╘ | ╒ | ╓ | ╫ | ╪ | ┘ | ┌ | █ | ▄ | ▌ | ▐ | ▀ |
 | F8E0 | α | ß | Γ | π | Σ | σ | µ | τ | Φ | Θ | Ω | δ | ∞ | φ | ε | ∩ |
 | F8F0 | ≡ | ± | ≥ | ≤ | ⌠ | ⌡ | ÷ | ≈ | ° | ∙ | · | √ | ⁿ | ² | ■ |   |
+
+## 다운로드
+
+| 폰트이름 | 자형 | TTF |  WOFF2 |  BDF |
+| ------- | ---- | ---- | ---- | ---- |
+| HE신이문 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HESinimun/HESinimun.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HESinimun/HESinimun.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HESinimun/HESinimun.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HESinimun/HESinimun.bdf)    |
 
 ## 법적 사항
 I do not claim any rights to the original raster binary data charsets, which this work is based on. Credit for these goes to their respective designers.

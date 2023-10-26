@@ -73,6 +73,7 @@
     - 2벌 : 중성 `[ㅗ ㅘ ㅙ ㅚ ㅛ ㅜ ㅝ ㅞ ㅟ ㅠ ㅡ ㅢ]` 와 결합
 
 ## 한라프로 5x2x2벌식 글꼴
+
 ## 한메 5x2x3벌식 글꼴
 - 사용: 한메 한글 1.0-3.0
 - 출처 : ***뇌피셜***
@@ -146,6 +147,7 @@
     - 2벌 : 중성 `[ㅗ ㅒ ㅓ ㅘ ㅚ ㅟ ㅢ ㅣ]` 와 결합
 
 ## 한라프로 7x2x2벌식 글꼴
+
 ## 도깨비한글 8x4x4벌식 글꼴
 - 출처 : [ZIK님 GMS 한글 조합 렌더링](https://github.com/TandyRum1024/hangul-johab-render-gms#%EA%B8%80%EA%BC%B4-%EA%B4%80%EB%A0%A8)
 - 초성 8벌, 중성 4벌, 종성 4벌
@@ -168,6 +170,10 @@
     - 2벌 : 중성 `[ㅓ ㅕ ㅚ ㅝ ㅟ ㅢ ㅣ]` 와 결합
     - 3벌 : 중성 `[ㅐ ㅒ ㅔ ㅖ ㅙ ㅞ]` 와 결합
     - 4벌 : 중성 `[ㅗ ㅛ ㅜ ㅠ ㅡ]` 와 결합
+
+## 우리글 10x2x2벌식 글꼴
+- 사용: 우리글 2.1 데모
+분석 필요
 
 ## 금성한글 10x4x4벌식 글꼴
 - 사용: GSVIP(금성 한글 BIOS), HECON(대우통신 한글 BIOS)
@@ -252,10 +258,6 @@
     - 3벌 : 중성 `[ㅐ ㅒ ㅔ ㅖ ㅙ ㅞ]`와 결합
     - 4벌 : 중성 `[ㅗ ㅛ ㅜ ㅠ ㅡ]`와 결합
 
-## 우리글 10x2x2벌식 글꼴
-- 사용: 우리글 2.1 데모
-분석 필요
-
 ## 삼보 14x{3,6}x4벌씩 글꼴
 분석 필요
 
@@ -270,5 +272,5 @@
     - 2벌 : 중성 `[ㅗ ㅛ ㅜ ㅠ ㅡ]`와 결합
 
 # 관련문서
-[조합식 글꼴의 기술분석](https://blog.peremen.name/entry/%EC%A1%B0%ED%95%A9%ED%98%95-%EA%B8%80%EA%BC%B4%EC%9D%98-%EA%B8%B0%EC%88%A0-%EB%B6%84%EC%84%9D/)
-[UnBitFonts](https://web.archive.org/web/20201014120827/https://sites.google.com/site/unbitfonts/composite)
+* [조합식 글꼴의 기술분석](https://blog.peremen.name/entry/%EC%A1%B0%ED%95%A9%ED%98%95-%EA%B8%80%EA%BC%B4%EC%9D%98-%EA%B8%B0%EC%88%A0-%EB%B6%84%EC%84%9D/)
+* [UnBitFonts](https://web.archive.org/web/20201014120827/https://sites.google.com/site/unbitfonts/composite)

@@ -1,20 +1,5 @@
-# HE바람 시리즈
-* HE바람네모명조체
-* HE바람네모고딕체
-* HE바람네모보석체
-* HE바람네모가는체
-* HE바람네모필기체
-* HE바람네모둥근체
-* HE바람네모샘물체
-* HE바람네모바람체
-* HE바람빨래명조체
-* HE바람빨래고딕체
-* HE바람빨래보석체
-* HE바람빨래가는체
-* HE바람빨래필기체
-* HE바람빨래둥근체
-* HE바람빨래샘물체
-* HE바람빨래바람체
+# HE바람
+1993년 DOS 한글 입출력 프로그램 한글 바람 3.0의 폰트입니다.
 ## 폰트 지원범위
 * ASCII문자 + 한글11172자 + KS X 1001 한자 및 특수문자 + 한글바람 특수문자를 지원합니다.
 
@@ -26,7 +11,7 @@
 * [바람시스템 한글바람 카드 한글롬](https://github.com/ika-musume/HangulCard_dumps/tree/main/BaramSystem_HangulBaram)
 
 ## PUA영역
-
+### 바람 특수문자
 | U+   | 0  | 1  | 2   | 3  | 4                            | 5                            | 6                            | 7                            | 8                            | 9                            | A                            | B                            | C                            | D                            | E  | F                            |
 |------|----|----|-----|----|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|----|------------------------------|
 | F000 | 한 | 글 | 바  | 람 |                              |                              |                              | ⒈𝟬                           |                              |                              |                              | (주                          | 주)                          | 바                           | 람 | 시                           |
@@ -63,7 +48,7 @@
 | F1B5 | ║ | [Cr  | rl]   | [Al  | t]   | [    | =   | =    | =    | =    | =    | ]   | [한/ | 영]   | [한   | 자]   |    | ⍇    | ⍗    | ⍈    |    | [0   | 0]   | [.]   | [↵]  | ║  |
 | F1CF | ╚ | ═    | ═     | ═    | ═    | ═    | ═   | ═    | ═    | ═    | ═    | ═   | ═    | ═     | ═     | ═     | ═  | ═    | ═    | ═    | ═  | ═    | ═    | ═     | ═    | ╝  |
 
-### 삼보특수전각문자(가칭)
+### 삼보특수문자
 
 | U+   | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8 | 9 | A | B | C | D | E | F |
 |------|----|----|----|----|----|----|----|----|---|---|---|---|---|---|---|---|
@@ -105,6 +90,26 @@
 * <a name="footnote_7">7</a>: U+F089 켜진발광다이오드 / U+F08A 꺼진발광다이오드 
 * <a name="footnote_8">8</a>: 지우개 그림글자
 
+## 다운로드 
+
+| 폰트이름 | 자형 | TTF |  WOFF2 |  BDF |
+| ------- | ---- | ---- | ---- | ---- |
+| HE바람네모명조체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoMyeongjoche.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoMyeongjoche.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoMyeongjoche.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoMyeongjoche.bdf)    |
+| HE바람네모고딕체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoGodikche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoGodikche.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoGodikche.woff2)       | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoGodikche.bdf)       |
+| HE바람네모보석체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBoseokche.ttf)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBoseokche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBoseokche.woff2)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBoseokche.bdf)      |
+| HE바람네모가는체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoSaemmulche.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoSaemmulche.ttf)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoSaemmulche.woff2)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoSaemmulche.bdf)     |
+| HE바람네모필기체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoPilgiche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoPilgiche.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoPilgiche.woff2)       | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoPilgiche.bdf)       |
+| HE바람네모둥근체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoDunggeunche.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoDunggeunche.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoDunggeunche.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoDunggeunche.bdf)    |
+| HE바람네모샘물체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.ttf)| [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.ttf) | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.woff2)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.bdf)  |
+| HE바람네모바람체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBaramche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBaramche.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBaramche.woff2)       | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramNemoBaramche.bdf)       |
+| HE바람빨래명조체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeMyeongjoche.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeMyeongjoche.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeMyeongjoche.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeMyeongjoche.bdf)    |
+| HE바람빨래고딕체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeGodikche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeGodikche.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeGodikche.woff2)       | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeGodikche.bdf)       |
+| HE바람빨래보석체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBoseokche.ttf)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBoseokche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBoseokche.woff2)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBoseokche.bdf)      |
+| HE바람빨래가는체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.ttf)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.woff2)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.bdf)     |
+| HE바람빨래필기체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaePilgiche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaePilgiche.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaePilgiche.woff2)       | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaePilgiche.bdf)       |
+| HE바람빨래둥근체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeDunggeunche.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeDunggeunche.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeDunggeunche.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeDunggeunche.bdf)    |
+| HE바람빨래샘물체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.ttf)| [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.ttf) | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.woff2)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeSaemmulche.bdf)  |
+| HE바람빨래바람체 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBaramche.ttf)     | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBaramche.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBaramche.woff2)       | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEBaram/HEBaramPpallaeBaramche.bdf)       |
 
 ## 법적 사항
 I do not claim any rights to the original raster binary data charsets, which this work is based on. Credit for these goes to their respective designers.
@@ -113,7 +118,7 @@ At least in the US and South Korea, the font file and code are copyrighted, but 
 
 나는 이 작업의 기반이 되는 원본 비트맵 폰트에 대한 어떠한 권리도 주장하지 않습니다. 이에 대한 공로는 해당 디자이너에게 돌아갑니다.
 
-적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 HE신이문의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
+적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 HE바람의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
 
 ## 이 프로젝트의 라이센스
 Copyright © 2022 TaeYun An (WindowsTiger / 혜음우리말화연구소) (0xodbs02@naver.com), with reserved font name “HE바람” 시리즈.
