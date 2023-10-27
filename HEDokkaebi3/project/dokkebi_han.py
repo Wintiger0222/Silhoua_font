@@ -86,8 +86,8 @@ FONT_BBALE  = 0
 width = 16
 height = width
 
-font_name = "HEDokkaebi"+bbale_name_eng[FONT_BBALE]+type_name_eng[FONT_TYPE]
-font_name_kor = "HE도깨비"+bbale_name[FONT_BBALE]+type_name[FONT_TYPE]
+font_name = "HEDokkaebi3"+bbale_name_eng[FONT_BBALE]+type_name_eng[FONT_TYPE]
+font_name_kor = "HE도깨비3"+bbale_name[FONT_BBALE]+type_name[FONT_TYPE]
 
 
 outFile = open(font_name+".json",'w',encoding='utf-8')
