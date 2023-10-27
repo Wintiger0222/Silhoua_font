@@ -38,3 +38,7 @@ bitmap korean font
 
 ## 기타
 [대우X2메뉴얼](https://archive.org/details/CPC400400S/page/n249/mode/2up)
+
+
+## 안내사항
+[NOTICE.md](NOTICE.md)

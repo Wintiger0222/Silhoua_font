@@ -32,7 +32,7 @@ At least in the US and South Korea, the font file and code are copyrighted, but 
 적어도 미국과 대한민국에서는 폰트 파일 및 코드는 저작권을 갖지만 서체 디자인은 저작권을 갖지 못합니다. 그리고 마찬가지로 두 국가 모두에서 일반적으로 비트맵 폰트는 저작권을 갖지 못합니다. 윤곽선(스케일러블) 폰트가 아닌 비트맵 또는 그레이스케일 폰트 파일의 경우, 실질적으로 이미지 파일과 동일하므로 프로그램 저작물로서 보호되지 않습니다. 참조: [#](https://int10h.org/oldschool-pc-fonts/readme/#legal_stuff), [#](http://kasanlaw.com/bbs/board.php?bo_table=sub04_2&wr_id=226) 또한 HE실루아의 윤곽선(스케일러블) 폰트 파일은 순전히 제가 처음 만든 것이기에 제게 저작권이 있고, 저는 ‘서체 디자인’에 대한 권리를 주장하지 않습니다.
 
 ## 이 프로젝트의 라이센스
-Copyright © 2022 TaeYun An (WindowsTiger / 혜음우리말화연구소) (0xodbs02@naver.com), with reserved font name "HE실루아".
+Copyright © 2022 TaeYun An (WindowsTiger) (0xodbs02@naver.com), with reserved font name "HE실루아".
 
 HE실루아는 [SIL 오픈 폰트 라이선스 1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)에 따라 사용할 수 있으며, 폰트가 자체적으로 판매되지 않는 한 자유롭게 사용·연구·수정·재배포할 수 있습니다. 또한 어떠한 경우에도 저작권자는 계약·불법 행위 또는 기타 계약의 조치로 인한 일반·특수·간접·부수·결과적 손해를 포함하여 어떠한 청구·손해 또는 기타 책임도 지지 않습니다.
 
