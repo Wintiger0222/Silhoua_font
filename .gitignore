@@ -1,3 +1,4 @@
 bin/*
 HITEL/output/*.json
 */__pycache__/*.pyc
+HEKimyunsu/project/output/*.json
