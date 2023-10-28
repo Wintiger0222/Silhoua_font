@@ -14,13 +14,49 @@
 
 ## 다운로드
 
-| 폰트이름 | 자형 | TTF |  WOFF2 |  BDF |
-| ------- | ---- | ---- | ---- | ---- |
-| HE둥근모꼴12 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.bdf)    |
-| HE둥근모꼴 |
-| HE짧은둥근모꼴 |
-| HE둥근모꼴20 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol20.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol20.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol20.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol20.bdf)    |
+| 폰트이름 | 크기 | 영문폰트 | 한글폰트 | 자형 | TTF |  WOFF2 |  BDF |
+| ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| HE둥근모꼴12 | 12x12| 영문둥근모꼴512 | 둥근모꼴1212 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.bdf)    |
+| HE둥근모꼴 | 16x16 | 영문둥근모꼴 | 둥근모꼴 |
+| HE짧은둥근모꼴 | 16x16 | 영문둥근모꼴 | 짧은둥근모꼴 |
+| HE굵은달꼴 | 16x16 | 영문굵은멋꼴 | 굵은달꼴 |
+| HE가는달꼴 | 16x16 |  | 가는달꼴 |
+| HE버금달꼴 | 16x16 | 영문버금멋꼴 | 버금달꼴 |
+| HE뫼꼴 | 16x16 | | 뫼꼴 |
+| HE짧은뫼꼴 | 16x16 | | 짧은뫼꼴 |
+| HE뫼꼴20 | 16x16 |   | 24203글꼴 |
+| HE짧은뫼꼴20<sup>[c](#footnote_c)</sup> | 20x20 | ENG<sup>[1](#footnote_1)</sup> | 24204글꼴 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol20.ttf)  |    |     |     |
+| HE중태세모꼴 | 16x16 |  영문중태세모꼴 | 중태세모꼴 |
+| HE중태세모꼴20 | 20x20 |    | 24205글꼴 |
+| HE뻗음꼴 | 16x16 |  | 뻗음꼴 |
+| HE짧은뻗음꼴 | 16x16 |  | 짧은뻗음꼴 |
+| HE삐침꼴 | 16x16 |  | 삐침꼴 |
+| HE삐침꼴20 | 20x20 |    | 24202글꼴 |
+| HE작은삐침꼴 | 16x16 |  | 작은삐침꼴 |
+| HE풀잎꼴 | 16x16 |  | 풀잎꼴 |
+| HE대나무꼴 | 16x16 |  | 대나무꼴 |
+| HE포갬꼴 | 16x16 |  | 포갬꼴 |
+|  | 16x16 |  영문버금멋꼴2 |
+|  | 16x16 |  영문버금멋꼴3 |
+|  |  16x16 | 영문틈멋꼴 |
+|  | 16x16 |   영문중태깍기꼴 |
 
+* <a name="footnote_1">c</a>: HE둥근모꼴20->HE짧은뫼꼴20으로 이름변경예정
+* <a name="footnote_1">1</a>: 영문둥근모꼴의 10x20변형
+
+* 메모: fontmeot의 김중태 글꼴이 아닌 것으로 추정되는 글꼴 
+  * ASCX.FNT
+  * ASCY.FNT
+  * EGM.FNT
+  * EMJ1.FNT
+  * EMJ2.FNT
+  * ENGLISH.FNT
+  * H3HOM.FNT (명조체의 1x1x1변형?)
+  * HANM.FNT
+  * HANS.FNT
+  * HGJ.HFT
+* 기타
+  * H3HOG.FNT (버금달꼴의 1x1x1변형?)
 ## 법적 사항
 I do not claim any rights to the original raster binary data charsets, which this work is based on. Credit for these goes to their respective designers.
 
