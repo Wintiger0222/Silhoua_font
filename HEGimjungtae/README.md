@@ -1,6 +1,6 @@
 # HE 김중태 글꼴
-김중태 IT위원장의 둥근모꼴 폰트입니다.<br>
-인터넷에 배포되고 있는 Neo둥근모와 둥근모꼴+Fixedsys와 달리 라틴폰트는 김중태 원장의 영문둥근모꼴을 이용했습니다. 
+김중태 IT위원장의 폰트입니다.<br>
+인터넷에 배포되고 있는 Neo둥근모와 둥근모꼴+Fixedsys와 달리 둥근모꼴의 라틴폰트는 김중태 원장의 영문둥근모꼴을 이용했습니다. 
 
 ## 폰트 지원범위
 * ASCII + 한글11172자 영역을 지원합니다.
@@ -16,12 +16,12 @@
 
 | 폰트이름 | 크기 | 영문폰트 | 한글폰트 | 자형 | TTF |  WOFF2 |  BDF |
 | ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| HE둥근모꼴12 | 12x12| 영문둥근모꼴512 | 둥근모꼴1212 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.bdf)    |
-| HE둥근모꼴 | 16x16 | 영문둥근모꼴 | 둥근모꼴 |
-| HE짧은둥근모꼴 | 16x16 | 영문둥근모꼴 | 짧은둥근모꼴 |
 | HE굵은달꼴 | 16x16 | 영문굵은멋꼴 | 굵은달꼴 |
 | HE가는달꼴 | 16x16 |  | 가는달꼴 |
 | HE버금달꼴 | 16x16 | 영문버금멋꼴 | 버금달꼴 |
+| HE둥근모꼴12 | 12x12| 영문둥근모꼴512 | 둥근모꼴1212 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEGimjungtae/HEDunggeunmokkol12.bdf)    |
+| HE둥근모꼴 | 16x16 | 영문둥근모꼴 | 둥근모꼴 |
+| HE짧은둥근모꼴 | 16x16 | 영문둥근모꼴 | 짧은둥근모꼴 |
 | HE뫼꼴 | 16x16 | | 뫼꼴 |
 | HE짧은뫼꼴 | 16x16 | | 짧은뫼꼴 |
 | HE뫼꼴20 | 16x16 |   | 24203글꼴 |
