@@ -52,8 +52,49 @@
 
 | 폰트이름 | 영문폰트 | 한글폰트 | KS특문폰트 | 삼보특문폰트| 자형 | TTF |  WOFF2 |  BDF |
 | ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| HE서기2400체s | AD2400 | 서기2400체 | Yun | - | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.bdf) |
-| HE서기2400체t | AD2400.10 | 서기2400체 | Yun | - |  [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.woff2) | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.bdf) |
+| HE서기2400체S | AD2400 | 서기2400체 | Yun | - | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheS.bdf) |
+| HE서기2400체T | AD2400.10 | 서기2400체 | Yun | - |  [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.ttf)      | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.woff2) | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimyunsu/HESeogi2400cheT.bdf) |
+| HE달리만듦체 | Mini | 달리만듦체 |
+| HE달리만듦체 | X-Small | 달리만듦체 |
+| HE김윤수디나루체 | Middle | 디나루체|
+| HE김윤수명조체 | Roman Large | 명조체 |
+| HE키작은체 | Little  | 키작은체 |
+| HE중간고딕체 | System | 중간고딕체|
+| HE중간고딕체2 | System | 중간고딕체2|
+| HE꼬마체 | Small<sup>[1](#footnote_1)</sup>  | 꼬마체 |
+| HE신판본체 |  | 신판본체 |
+| HE신판본체2 |  | 신판본체2 |
+| HE신판본체3 | Flow | 신판본체3 |
+| HE신판본체3 | Flow.10 | 신판본체3 |
+| HE폴체 | | 폴체|
+| HE파울루스체 | Big | 파울루스체|
+| HE피시체 | Byte |피시체|
+| HE피시체 | Byte.10 |피시체|
+| HE샘명조체 | Standard3 | 샘명조체|
+| HE스러짐체| Slant | 스러짐체|
+| HE좌기울임체|  | 기울임체 |
+| HE우기울임체| Script Bold | 기울임체2|
+| HE우기울임체| Zorro | 기울임체2|
+| HE이야기굵은체2| | 이야기굵은체2|
+| HE이야기굵은체3| | 이야기굵은체3|
+| HE장식고딕체| Semi-Roman |장식고딕체|
+| HE김인철체2| Mini1<sup>[1](#footnote_1)</sup> |김인철체2|
+| HE도깨비디나루3| Middle |도깨비디나루3|
+| HE태백필기체2 | Script 2 | 태백필기체2|
+| HE태백필기체2 | Eart | 태백필기체2|
+| HE태백필기체2 | Eart.10 | 태백필기체2|
+| HE태백필기체2 | ZEO | 태백필기체2|
+| | Count |
+| | Utopia |
+| | Microgramma2 |
+| |Script 2 Thin|
+| |Script|
+| |Royal|
+| |Bold|
+| |Bold Normal|
+| |Inbold|
+
+* <a name="footnote_1">1</a>: 김윤수님의 형인 김헌수 님이 만든 들꼴
 
 ## 법적 사항
 I do not claim any rights to the original raster binary data charsets, which this work is based on. Credit for these goes to their respective designers.
