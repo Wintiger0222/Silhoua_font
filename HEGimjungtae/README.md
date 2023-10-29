@@ -16,26 +16,26 @@
 
 | 폰트이름 | 크기 | 영문폰트 | 한글폰트 | 특수문자/한자 | 자형 | TTF |  WOFF2 |  BDF |
 | ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| HE굵은달꼴 | 16x16 | 영문굵은멋꼴 | 굵은달꼴 | 이야기<sup>[2](#footnote_2)</sup> |
+| HE굵은달꼴 | 16x16 | 영문굵은멋꼴 | 굵은달꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEGulgeunDalkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEGulgeunDalkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEGulgeunDalkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEGulgeunDalkkol.bdf)    |
 | HE가는달꼴 | 16x16 | Microgramma2<sup>[3](#footnote_3)</sup> | 가는달꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE버금달꼴 | 16x16 | 영문버금멋꼴 | 버금달꼴 | 이야기<sup>[2](#footnote_2)</sup> |
+| HE버금달꼴 | 16x16 | 영문버금멋꼴 | 버금달꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEBeogeumDalkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEBeogeumDalkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEBeogeumDalkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEBeogeumDalkkol.bdf)    |
 | HE둥근모꼴12 | 12x12| 영문둥근모꼴512 | 둥근모꼴1212 | - | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.bdf)    |
-| HE둥근모꼴 | 16x16 | 영문둥근모꼴 | 둥근모꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE짧은둥근모꼴 | 16x16 | 영문둥근모꼴 | 짧은둥근모꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE뫼꼴 | 16x16 | 영문버금멋꼴2 | 뫼꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE짧은뫼꼴 | 16x16 | 영문버금멋꼴3 | 짧은뫼꼴 | 이야기<sup>[2](#footnote_2)</sup> |
+| HE둥근모꼴 | 16x16 | 영문둥근모꼴 | 둥근모꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol.bdf)    |
+| HE짧은둥근모꼴 | 16x16 | 영문둥근모꼴 | 짧은둥근모꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunDunggeunmokkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunDunggeunmokkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunDunggeunmokkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunDunggeunmokkol.bdf)    |
+| HE뫼꼴 | 16x16 | 영문버금멋꼴2 | 뫼꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEMoekkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEMoekkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtaeHEMoekkol/.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEMoekkol.bdf)    |
+| HE짧은뫼꼴 | 16x16 | 영문버금멋꼴3 | 짧은뫼꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunMoekkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunMoekkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunMoekkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunMoekkol.bdf)    |
 | HE뫼꼴20 | 20x20 | ENG<sup>[1](#footnote_1)</sup>  | 24203글꼴 |
 | HE짧은뫼꼴20<sup>[c](#footnote_c)</sup> | 20x20 | ENG<sup>[1](#footnote_1)</sup> | 24204글꼴 |  | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol20.ttf)  |    |     |     |
-| HE중태세모꼴 | 16x16 |  영문중태세모꼴 | 중태세모꼴 | 이야기<sup>[2](#footnote_2)</sup> |
+| HE중태세모꼴 | 16x16 |  영문중태세모꼴 | 중태세모꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJungtaesemokkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJungtaesemokkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJungtaesemokkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJungtaesemokkol.bdf)    |
 | HE중태세모꼴20 | 20x20 | ENG<sup>[1](#footnote_1)</sup>   | 24205글꼴 |
-| HE뻗음꼴 | 16x16 | 영문버금멋꼴2 | 뻗음꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE짧은뻗음꼴 | 16x16 | 영문버금멋꼴3 | 짧은뻗음꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE삐침꼴 | 16x16 | 영문중태깍기꼴 | 삐침꼴 | 이야기<sup>[2](#footnote_2)</sup> |
+| HE뻗음꼴 | 16x16 | 영문버금멋꼴2 | 뻗음꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpeodeumkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpeodeumkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpeodeumkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpeodeumkkol.bdf)    |
+| HE짧은뻗음꼴 | 16x16 | 영문버금멋꼴3 | 짧은뻗음꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunPpeodeumkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunPpeodeumkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunPpeodeumkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJjalbeunPpeodeumkkol.bdf)    |
+| HE삐침꼴 | 16x16 | 영문중태깍기꼴 | 삐침꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpichimkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpichimkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpichimkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPpichimkkol.bdf)    |
 | HE삐침꼴20 | 20x20 |  ENG<sup>[1](#footnote_1)</sup>  | 24202글꼴 |
-| HE작은삐침꼴 | 16x16 | 영문버금멋꼴3 | 작은삐침꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE풀잎꼴 | 16x16 | 영문버금멋꼴 | 풀잎꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE대나무꼴 | 16x16 |영문틈멋꼴  | 대나무꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE포갬꼴 | 16x16 | 영문버금멋꼴2 | 포갬꼴 | 이야기<sup>[2](#footnote_2)</sup> |
+| HE작은삐침꼴 | 16x16 | 영문버금멋꼴3 | 작은삐침꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJageunppichimkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJageunppichimkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJageunppichimkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEJageunppichimkkol.bdf)    |
+| HE풀잎꼴 | 16x16 | 영문버금멋꼴 | 풀잎꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPuripkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPuripkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPuripkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPuripkkol.bdf)    |
+| HE대나무꼴 | 16x16 |영문틈멋꼴  | 대나무꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDaenamukkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDaenamukkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDaenamukkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDaenamukkol.bdf)    |
+| HE포갬꼴 | 16x16 | 영문버금멋꼴2 | 포갬꼴 | 이야기<sup>[2](#footnote_2)</sup> | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPogaemkkol.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPogaemkkol.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPogaemkkol.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEPogaemkkol.bdf)    |
 
 * <a name="footnote_c">c</a>: HE둥근모꼴20->HE짧은뫼꼴20으로 이름변경예정
 * <a name="footnote_1">1</a>: 영문둥근모꼴의 10x20변형
@@ -55,6 +55,7 @@
   * HGJ.HFT
 * 기타
   * H3HOG.FNT (버금달꼴의 1x1x1변형?)
+  
 ## 법적 사항
 I do not claim any rights to the original raster binary data charsets, which this work is based on. Credit for these goes to their respective designers.
 
