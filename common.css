@@ -168,8 +168,40 @@
       
 }
 @font-face {
-    font-family: HE둥근모꼴20;
-    src:url(./HEKimjungtae/HEDunggeunmokkol20.woff2) format('woff2');
+    font-family: HE중태고딕꼴20;
+    src:url(./HEKimjungtae/HEJungtaegodikkkol20.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+      
+}
+@font-face {
+    font-family: HE버금멋꼴A20;
+    src:url(./HEKimjungtae/HEBeogeummeotkkolA20.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+      
+}
+@font-face {
+    font-family: HE버금멋꼴B20;
+    src:url(./HEKimjungtae/HEBeogeummeotkkolB20.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+      
+}
+@font-face {
+    font-family: HE버금멋꼴C20;
+    src:url(./HEKimjungtae/HEBeogeummeotkkolC20.woff2) format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+      
+}
+@font-face {
+    font-family: HE중태세모꼴20;
+    src:url(./HEKimjungtae/HEJungtaesemokkol20.woff2) format('woff2');
       font-weight: normal;
       font-style: normal;
       font-display: block;
