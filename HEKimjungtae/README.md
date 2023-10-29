@@ -14,33 +14,35 @@
 
 ## 다운로드
 
-| 폰트이름 | 크기 | 영문폰트 | 한글폰트 | 특수문자/한자 | 자형 | TTF |  WOFF2 |  BDF |
-| ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| HE굵은달꼴 | 16x16 | 영문굵은멋꼴 | 굵은달꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE가는달꼴 | 16x16 | Microgramma2<sup>[3](#footnote_3)</sup> | 가는달꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE버금달꼴 | 16x16 | 영문버금멋꼴 | 버금달꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE둥근모꼴12 | 12x12| 영문둥근모꼴512 | 둥근모꼴1212 | - | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.bdf)    |
-| HE둥근모꼴 | 16x16 | 영문둥근모꼴 | 둥근모꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE짧은둥근모꼴 | 16x16 | 영문둥근모꼴 | 짧은둥근모꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE뫼꼴 | 16x16 | 영문버금멋꼴2 | 뫼꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE짧은뫼꼴 | 16x16 | 영문버금멋꼴3 | 짧은뫼꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE뫼꼴20 | 20x20 | ENG<sup>[1](#footnote_1)</sup>  | 24203글꼴 |
-| HE짧은뫼꼴20<sup>[c](#footnote_c)</sup> | 20x20 | ENG<sup>[1](#footnote_1)</sup> | 24204글꼴 |  | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol20.ttf)  |    |     |     |
-| HE중태세모꼴 | 16x16 |  영문중태세모꼴 | 중태세모꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE중태세모꼴20 | 20x20 | ENG<sup>[1](#footnote_1)</sup>   | 24205글꼴 |
-| HE뻗음꼴 | 16x16 | 영문버금멋꼴2 | 뻗음꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE짧은뻗음꼴 | 16x16 | 영문버금멋꼴3 | 짧은뻗음꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE삐침꼴 | 16x16 | 영문중태깍기꼴 | 삐침꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE삐침꼴20 | 20x20 |  ENG<sup>[1](#footnote_1)</sup>  | 24202글꼴 |
-| HE작은삐침꼴 | 16x16 | 영문버금멋꼴3 | 작은삐침꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE풀잎꼴 | 16x16 | 영문버금멋꼴 | 풀잎꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE대나무꼴 | 16x16 |영문틈멋꼴  | 대나무꼴 | 이야기<sup>[2](#footnote_2)</sup> |
-| HE포갬꼴 | 16x16 | 영문버금멋꼴2 | 포갬꼴 | 이야기<sup>[2](#footnote_2)</sup> |
+| 폰트이름 | 크기 | 영문폰트 | 한글폰트 | 자형 | TTF |  WOFF2 |  BDF |
+| ------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| HE굵은달꼴 | 16x16 | 영문굵은멋꼴 | 굵은달꼴 |
+| HE가는달꼴 | 16x16 |  | 가는달꼴 |
+| HE버금달꼴 | 16x16 | 영문버금멋꼴 | 버금달꼴 |
+| HE둥근모꼴12 | 12x12| 영문둥근모꼴512 | 둥근모꼴1212 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.ttf)  | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.ttf)   | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.woff2)    | [다운로드](https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol12.bdf)    |
+| HE둥근모꼴 | 16x16 | 영문둥근모꼴 | 둥근모꼴 |
+| HE짧은둥근모꼴 | 16x16 | 영문둥근모꼴 | 짧은둥근모꼴 |
+| HE뫼꼴 | 16x16 | | 뫼꼴 |
+| HE짧은뫼꼴 | 16x16 | | 짧은뫼꼴 |
+| HE뫼꼴20 | 16x16 |   | 24203글꼴 |
+| HE짧은뫼꼴20<sup>[c](#footnote_c)</sup> | 20x20 | ENG<sup>[1](#footnote_1)</sup> | 24204글꼴 | [보기](https://lsfont.quiple.dev/#https://wintiger0222.github.io/Silhoua_font/HEKimjungtae/HEDunggeunmokkol20.ttf)  |    |     |     |
+| HE중태세모꼴 | 16x16 |  영문중태세모꼴 | 중태세모꼴 |
+| HE중태세모꼴20 | 20x20 |    | 24205글꼴 |
+| HE뻗음꼴 | 16x16 |  | 뻗음꼴 |
+| HE짧은뻗음꼴 | 16x16 |  | 짧은뻗음꼴 |
+| HE삐침꼴 | 16x16 |  | 삐침꼴 |
+| HE삐침꼴20 | 20x20 |    | 24202글꼴 |
+| HE작은삐침꼴 | 16x16 |  | 작은삐침꼴 |
+| HE풀잎꼴 | 16x16 |  | 풀잎꼴 |
+| HE대나무꼴 | 16x16 |  | 대나무꼴 |
+| HE포갬꼴 | 16x16 |  | 포갬꼴 |
+|  | 16x16 |  영문버금멋꼴2 |
+|  | 16x16 |  영문버금멋꼴3 |
+|  |  16x16 | 영문틈멋꼴 |
+|  | 16x16 |   영문중태깍기꼴 |
 
 * <a name="footnote_c">c</a>: HE둥근모꼴20->HE짧은뫼꼴20으로 이름변경예정
 * <a name="footnote_1">1</a>: 영문둥근모꼴의 10x20변형
-* <a name="footnote_2">2</a>: PC통신 프로그램 이야기의 KS 및 삼보 특문
-* <a name="footnote_3">3</a>: 김윤수님 글꼴
 
 * 메모: fontmeot의 김중태 글꼴이 아닌 것으로 추정되는 글꼴 
   * ASCX.FNT

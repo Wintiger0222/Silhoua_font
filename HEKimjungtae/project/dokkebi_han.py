@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*- 
 from sys import argv, exit
+from text_list import SPC_list,KSG_list, KANJI_list
 import math
 
 PUA_start=57344
@@ -120,7 +121,10 @@ pqrstuvwxyz{|}~◇\
 
     for i in range(len(CP437_list)):
         printf("\t\t{\n")
-        printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
+        if (i<0x20 or i>=0x7f):
+            printf("\t\t\t\"unicode\": " + str(0xF800+i) + ",\n")
+        else:
+            printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
         
         #data print        
         printf("\t\t\t\"data\": [\n")
@@ -142,14 +146,40 @@ pqrstuvwxyz{|}~◇\
     fp.close()
 
     ## 확장아스키 문자 링크
-    if KSG_FONT != "!":
-        for i in range(len(CP437_list)):
-            if (i<0x20 or i>=0x7f):
-                printf("\t\t{\n")
-                printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
-                printf("\t\t\t\"components\": [" + str(0xF800+i) + "]\n")
-                printf("\t\t},\n")
+    for i in range(len(CP437_list)):
+        if (i<0x20 or i>=0x7f):
+            printf("\t\t{\n")
+            printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
+            printf("\t\t\t\"components\": [" + str(0xF800+i) + "]\n")
+            printf("\t\t},\n")
 
+
+SPEC4_list = "áàâäãåÇçÉéèêëíìî\
+ïÑñÖÕØóòôöõøÜúùû\
+üÿÆæ¿¿¿¢£¿₧"
+fp = open("IYG\SPEC4.FNT" , 'rb')
+fp.seek(0x500)
+
+for i in range(len(SPEC4_list)):
+    printf("\t\t{\n")
+    printf("\t\t\t\"unicode\": " + str(ord(SPEC4_list[i])) + ",\n")
+    
+    #data print        
+    printf("\t\t\t\"data\": [\n")
+    for h in range(height):
+        printf("\t\t\t\t\"")
+        # horizon
+        for w in range(math.ceil(height/16)):
+            value = fp.read(1)[0]
+            bin_val = format(value, 'b').zfill(8).replace('1','#').replace('0','.')
+            printf(bin_val)
+            if h < height-1:
+                printf("\",\n")
+            else:
+                printf("\"\n")
+    printf("\t\t\t]\n")
+    printf("\t\t},\n")
+fp.close()
 
 #전각띄어쓰기 하드코딩
 printf("\t\t{\n")
@@ -158,6 +188,117 @@ printf("\t\t\t\"unicode\": 12288,\n")
 #data print   
 printf("\t\t\t\"advanceWidth\":16\n")
 printf("\t\t},\n")
+
+
+#삼보특수문자
+
+fp = open("IYG\ISPC.FNT" , 'rb')
+fp.seek(0x0)
+for i in range(len(SPC_list)):
+    printf("\t\t{\n")
+    if (i<0x20):
+        printf("\t\t\t\"unicode\": " + str(0xF700+i) + ",\n")
+    else:
+        printf("\t\t\t\"unicode\": " + str(0xF780+i) + ",\n")
+    
+    #data print        
+    printf("\t\t\t\"data\": [\n")
+    for h in range(height):
+        printf("\t\t\t\t\"")
+        # horizon
+        for w in range(math.ceil(width/8)):
+            value = fp.read(1)[0]
+            bin_val = format(value, 'b').zfill(8).replace('1','#').replace('0','.')
+            printf(bin_val)
+
+        if h < height-1:
+            printf("\",\n")
+        else:
+            printf("\"\n")
+
+    printf("\t\t\t],\n")
+    printf("\t\t\t\"advanceWidth\":16\n")
+    printf("\t\t},\n")  
+fp.close()
+
+# 실제문자에 링크하기
+for i in range(len(SPC_list)):
+    if(SPC_list[i] == '!'):
+        continue
+    printf("\t\t{\n")
+    printf("\t\t\t\"unicode\": " + str(ord(SPC_list[i])) + ",\n")
+    if (i<0x20):
+        printf("\t\t\t\"components\": [" + str(0xF700+i) + "],\n")
+    else:
+        printf("\t\t\t\"components\": [" + str(0xF780+i) + "],\n")
+   
+    printf("\t\t\t\"advanceWidth\":16\n")
+    printf("\t\t},\n")
+
+
+# 특수문자
+fp = open("IYG\IKS.FNT" , 'rb')
+fp.seek(0x0)
+for i in range(len(KSG_list)):
+    if(KSG_list[i] == '☺'):
+        for h in range(height):
+            for w in range(math.ceil(width/8)):
+                fp.read(1)[0]
+        continue
+    printf("\t\t{\n")
+    printf("\t\t\t\"unicode\": " + str(ord(KSG_list[i])) + ",\n")
+    
+    #data print        
+    printf("\t\t\t\"data\": [\n")
+    for h in range(height):
+        printf("\t\t\t\t\"")
+        # horizon
+        for w in range(math.ceil(width/8)):
+            value = fp.read(1)[0]
+            bin_val = format(value, 'b').zfill(8).replace('1','#').replace('0','.')
+            printf(bin_val)
+
+        if h < height-1:
+            printf("\",\n")
+        else:
+            printf("\"\n")
+
+    printf("\t\t\t],\n")
+    printf("\t\t\t\"advanceWidth\":16\n")
+    printf("\t\t},\n")
+  
+#한자
+fp = open("IYG\IHANJA.FNT" , 'rb')
+fp.seek(0x0)
+
+for i in range(len(KANJI_list)):
+    if(KANJI_list[i] == '!'):
+        for h in range(height):
+            for w in range(math.ceil(width/8)):
+                fp.read(1)[0]
+        continue
+    printf("\t\t{\n")
+    printf("\t\t\t\"unicode\": " + str(ord(KANJI_list[i])) + ",\n")
+    
+    #data print        
+    printf("\t\t\t\"data\": [\n")
+    for h in range(height):
+        printf("\t\t\t\t\"")
+        # horizon
+        for w in range(math.ceil(width/8)):
+            value = fp.read(1)[0]
+            bin_val = format(value, 'b').zfill(8).replace('1','#').replace('0','.')
+            printf(bin_val)
+
+        if h < height-1:
+            printf("\",\n")
+        else:
+            printf("\"\n")
+
+    printf("\t\t\t],\n")
+    printf("\t\t\t\"advanceWidth\":16\n")
+    printf("\t\t},\n")
+
 
 # 한글조합
 if HAN_FONT != "!":
