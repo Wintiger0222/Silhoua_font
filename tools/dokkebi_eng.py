@@ -29,7 +29,7 @@ outFile = open(file.replace(("."+file.split('.')[-1]),'.json'),'w',encoding='utf
 
 for i in range(len(CP437_list)):
     printf("\t\t{\n")
-    if (i<0x20 or i>0x7f) and mode == 1:
+    if (i<0x20 or i>=0x7f) and mode == 1:
         printf("\t\t\t\"unicode\": " + str(0xF800+i) + ",\n")
     else:
         printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")

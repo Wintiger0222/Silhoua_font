@@ -121,7 +121,7 @@ fp.seek(ENG_FONT_LIST[FONT_TYPE])
 
 for i in range(len(CP437_list)):
     printf("\t\t{\n")
-    if (i<0x20 or i>0x7f):
+    if (i<0x20 or i>=0x7f):
         printf("\t\t\t\"unicode\": " + str(0xF800+i) + ",\n")
     else:
         printf("\t\t\t\"unicode\": " + str(ord(CP437_list[i])) + ",\n")
